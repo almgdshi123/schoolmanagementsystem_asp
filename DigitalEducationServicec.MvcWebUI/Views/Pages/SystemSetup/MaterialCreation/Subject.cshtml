@@ -1,0 +1,443 @@
+﻿@using DigitalEducationServicec.Application.Features.Subject.Queries.Results;
+@model List<GetSubjectListResponse>
+@{
+    int i = 0;
+    ViewData["Title"] = "    دليل المواد  الدارسية    ";
+    ViewData["Icon"] = "  bi bi-clipboard-data ";
+
+}
+
+@section style{
+    <link href="
+https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.18/dist/css/bootstrap-select.min.css
+" rel="stylesheet">
+    <link href="~/assets/css/cssitem/switch.css" rel="stylesheet">
+}
+@section Sidebar{
+
+    @Html.Partial("~/Views/Pages/Sidebar/Sidebar.cshtml")
+
+}
+
+
+<div class="row">
+
+
+
+    <div class="col-xl-12 mb-30">
+        <div class="card card-statistics h-100">
+            <div class="card-body">
+
+                <table class="table table-striped table-hover" style="text-align:center">
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal">
+                                    اظافة مادة
+                                    <i class="fa fa-plus color-orange " style="font-size:18px ;margin-right: 45px;"></i>
+
+                                </a>
+                            </th>
+
+                        </tr>
+                    </tbody>
+                </table>
+                </br>
+
+                <br><br>
+
+                <div class="table-responsive">
+                    <table id="datatable" class="table  table-hover table-sm table-bordered p-0" data-page-length="50"
+                           style="text-align: center">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>  اسم المادة  </th>
+                                <th>   الاسم الاجنبي</th>
+                                <th>  الدرجة الضغرى</th>
+                                <th>  الدرجة الكبرى</th>
+                                <th>   المادة تدخل في  المعدل</th>
+                                <th>  نوع المادة</th>
+
+
+
+                                <th> ملاحضات</th>
+
+                                <th>العلميات</th>
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+
+                            @foreach (var item in Model)
+                            {
+
+                                i++;
+                                <tr>
+
+                                    <td>@i</td>
+                                    <td>  @item.SubjectNameArabic    </td>
+                                    <td>  @item.SubjectNameEnglish    </td>
+                                    <td> @item.LowScore</td>
+                                    <td> @item.HighScore</td>
+
+                                    <td>
+                                        @if (item.SubjectIncludedInRate == false)
+                                        {
+                                            <label class="badge badge-danger"> لاتدخل  </label>
+                                        }
+                                        else
+                                        {
+                                            <label class="badge badge-success">تدخل</label>
+
+                                        }
+
+                                    </td>
+
+                                    <td>
+                                        @if (item.SubjectType == "نظامية")
+                                        {
+                                            <label class="badge badge-success"> نظامية  </label>
+                                        }
+                                        else if (item.SubjectType == "غير نظامية")
+
+                                        {
+                                            <label class="badge badge-warning">غير نظامية</label>
+
+                                        }
+                                        else if (item.SubjectType == "لايوجد رسوب")
+                                        {
+                                            <label class="badge badge-danger">لايوجد رسوب</label>
+
+                                        }
+
+                                    </td>
+
+                                    <td> @item.Note</td>
+                                    <td>
+
+                                        <button type="button" class="btn btn-info btn-sm" data-id="@item.SubjectId" data-name="@item.SubjectNameArabic"
+                                                data-val1="@item.SubjectNameEnglish" data-val2="@item.LowScore" data-val3="@item.HighScore" data-val4="@item.SubjectIncludedInRate" data-val5="@item.SubjectType" data-val6="@item.Note" data-toggle="modal"
+                                                href="#exampleModal2" title="تعديل">
+                                            <i class="fa fa-edit"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
+                                                href="#modaldemo9" data-id="@item.SubjectId" data-name="@item.SubjectNameArabic"
+                                                title="حذف">
+                                            <i class="fa fa-trash"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+
+                        <!-- delete_modal_Grade -->
+                        <div class="modal fade" id="modaldemo9" tabindex="-1" role="dialog"
+                             aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title"
+                                            id="exampleModalLabel">
+                                            حذف
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form asp-controller="Subject" asp-action="Delete" method="get">
+                                            هل انت متاكد من عملية الحذف ؟
+                                            <input id="id" name="SubjectId" class="form-control" hidden required
+                                                   value="">
+                                            <input class="form-control" name="name" id="name" type="text" readonly>
+
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                        data-dismiss="modal">
+                                                    اغلاق
+                                                </button>
+                                                <button type="submit" class="btn btn-danger">ارسال</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    اظافة مادة
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <!-- add_form -->
+                    <form asp-controller="Subject" asp-action="Create" method="post">
+                        <div class="row">
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">    اسم المادة    :</label>
+                                <input placeholder="  اكتب اسم المادة" required
+                                       class="form-control" name="SubjectNameArabic" id="name">
+
+                            </div>
+
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">    الاسم الاجنبي     :</label>
+                                <input placeholder="  اكتب اسم الاجنبي" class="form-control" name="SubjectNameEnglish" id="val1">
+
+                            </div>
+
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">    الاسم المختصر     :</label>
+                                <input placeholder="   اسم المختصر" class="form-control" name="" id="exampleFormControlTextarea1">
+
+                            </div>
+                        </div>
+                        <br />
+                        <div class="col">
+
+
+                            <!-- Rounded switch -->
+
+                            <label for="Name" class="mr-sm-2">  المادة داخلة في المعدل     </label>
+                            <label lass="form-control" class="switch">
+                                <input type="checkbox" value='true' name='check'>
+                                <span class="slider round"></span>
+                            </label>
+                            <br />
+
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">   الدرجة الصغرى    :</label>
+                                <input id="Name" type="number" placeholder="الدرجة الصغرى " name="LowScore" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">   الدرجة الكبرى      :</label>
+                                <input id="Name" placeholder="الدرجة الكبرى" type="number" name="HighScore" class="form-control">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <label for="Name" class="mr-sm-2">    نوع المادة    :</label>
+                            <div class="col-lg-9">
+                                <select data-placeholder="اختار نوع المادة من القائمة" name="SubjectType" id="current_session" class="select-search selectpicker">
+                                    <option> نظامية</option>
+                                    <option>غير نظامية</option>
+
+                                    <option> لايوجد رسوب</option>
+
+                                </select>
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">
+                                ملاحظات
+                                :
+                            </label>
+                            <textarea placeholder=" سجل ملاحضاتك هنا" class="form-control" name="Note" id="exampleFormControlTextarea1"
+                                      rows="3"></textarea>
+                        </div>
+                        <br><br>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                            <button type="submit" class="btn btn-success">ارسال</button>
+                        </div>
+                    </form>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title" id="exampleModalLabel">
+                        تعديل  فئة رسوم
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form asp-controller="Subject" asp-action="Edit" method="post">
+                        <div class="row">
+                            <div class="col">
+                                <input id="id" name="SubjectId" class="form-control" hidden required
+                                       value="">
+                                <label for="Name" class="mr-sm-2">    اسم المادة    :</label>
+                                <input placeholder="  اكتب اسم المادة" required
+                                       class="form-control" name="SubjectNameArabic" id="name">
+
+                            </div>
+
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">    الاسم الاجنبي     :</label>
+                                <input placeholder="  اكتب اسم الاجنبي" class="form-control" name="SubjectNameEnglish" id="val1">
+
+                            </div>
+
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">    الاسم المختصر     :</label>
+                                <input placeholder="   اسم المختصر" class="form-control" name="" id="exampleFormControlTextarea1">
+
+                            </div>
+                        </div>
+                        <br />
+                        <div class="col">
+
+
+                            <!-- Rounded switch -->
+
+                            <label for="Name" class="mr-sm-2">  المادة داخلة في المعدل     </label>
+                            <label lass="form-control" class="switch" id='switch'>
+
+
+                            </label>
+                            <br />
+
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">   الدرجة الصغرى    :</label>
+                                <input id="val2" type="number" placeholder="الدرجة الصغرى " name="LowScore" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">   الدرجة الكبرى      :</label>
+                                <input id="val3" placeholder="الدرجة الكبرى" type="number" name="HighScore" class="form-control">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <label for="Name" class="mr-sm-2">    نوع المادة    :</label>
+                            <div class="col-lg-9">
+                                <select id="myselect" name="SubjectType" class=" selectpicker">
+                                    <option id="id1" selected></option>
+
+                                    <option> نظامية</option>
+                                    <option>غير نظامية</option>
+
+                                    <option> لايوجد رسوب</option>
+
+                                </select>
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">
+                                ملاحظات
+                                :
+                            </label>
+                            <textarea placeholder=" سجل ملاحضاتك هنا" class="form-control" name="Note" id="exampleFormControlTextarea1"
+                                      rows="3"></textarea>
+                        </div>
+                        <br><br>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                            <button type="submit" class="btn btn-success">ارسال</button>
+                        </div>
+                    </form>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+@section scripts {
+
+
+    <!-- (Optional) Latest compiled and minified JavaScript translation files -->
+    <script src="
+https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.18/js/bootstrap-select.min.js
+"></script>
+    <script>
+        $('#exampleModal2').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget)
+            var id = button.data('id')
+            var name = button.data('name')
+            var val1 = button.data('val1')
+            var val2 = button.data('val2')
+            var val3 = button.data('val3')
+            var val4 = button.data('val4')
+            var val5 = button.data('val5')
+            var val6 = button.data('val6')
+
+            var modal = $(this)
+            modal.find('.modal-body #id').val(id);
+            modal.find('.modal-body #name').val(name);
+            modal.find('.modal-body #val1').val(val1);
+            modal.find('.modal-body #val2').val(val2);
+            modal.find('.modal-body #val3').val(val3);
+            modal.find('.modal-body #val6').val(val6);
+
+
+
+
+            var el_down1 = document.getElementById("id1");
+                el_down1.innerHTML = "" + val5;
+            $("#myselect").selectpicker("refresh");
+
+
+
+
+
+            var el_down = document.getElementById("switch");
+            if (val4 == 'True') {
+
+
+                el_down.innerHTML = "<input type='checkbox' value='true' name='check' checked> <span class='slider round'></span>";
+            } else {
+                el_down.innerHTML = "<input  type='checkbox' value='true' name='check'><span class='slider round'></span>";
+
+
+            }
+
+
+
+        })
+    </script>
+    <script>
+        $('#modaldemo9').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget)
+            var id = button.data('id')
+            var name = button.data('name')
+            var modal = $(this)
+            modal.find('.modal-body #id').val(id);
+            modal.find('.modal-body #name').val(name);
+        })
+    </script>
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DigitalEducationServicec.Api.props" />
+</Project>

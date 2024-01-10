@@ -1,0 +1,224 @@
+﻿@{
+    ViewData["Title"] = "  لوحة التحكم ";
+    ViewData["Icon"] = " bi bi-display ";
+}
+@section style{
+    <link href="~/assets2/vendor/aos/aos.css" rel="stylesheet">
+    <link href="~/assets2/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="~/assets2/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+    <link href="~/assets2/css/variables-green.css" rel="stylesheet">
+    <link href="~/assets2/css/Dasboard.css" rel="stylesheet">
+
+
+}
+@section Sidebar{
+
+    @Html.Partial("~/Views/Pages/Sidebar/Sidebar.cshtml")
+
+}
+<div class="page-title">
+    <div class="row">
+        <div class="col-sm-6">
+        </div>
+        <div class="col-sm-6">
+            <ol class="breadcrumb pt-0 pr-0 float-left float-sm-right">
+            </ol>
+        </div>
+    </div>
+</div>
+<!-- widgets -->
+
+
+<div class="calendar-main mb-30">
+    <div class="">
+        <br />
+
+        <section id="hero-animated" class="hero-animated d-flex align-items-center">
+            <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative"
+                 data-aos="zoom-out">
+                <h2>   @ViewData["Title"] <span>نظام ادارة المدارس</span></h2>
+
+
+            </div>
+        </section>
+        <br /><br />
+        <!-- ======= Features Section ======= -->
+        <section id="features" class="features">
+            <div style="
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+" data-aos="fade-up">
+
+                <ul class="nav nav-tabs row gy-4 ">
+
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link  " data-bs-toggle="tab" data-bs-target="#tab-1">
+                            <i class="bi bi-building-gear color-indigo"></i>
+                            <h4>ادارة الطلاب</h4>
+                        </a>
+                    </li><!-- End Tab 1 Nav -->
+
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                            <i class="bi bi-file-earmark-person-fill color-indigo"></i>
+                            <h4>الاستاذ العام</h4>
+                        </a>
+                    </li><!-- End Tab 2 Nav -->
+
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+                            <i class="bi bi-wifi color-primary-light"></i>
+                            <h4>الشبكات</h4>
+                        </a>
+                    </li><!-- End Tab 3 Nav -->
+
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link" href="/SystemSetup">
+                            <i class="bi bi-database-fill-gear color-red"></i>
+                            <h4>تهيئة النظام</h4>
+                        </a>
+                    </li><!-- End Tab 4 Nav -->
+
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
+                            <i class="bi bi-file-earmark-person-fill color-blue"></i>
+                            <h4>شوان الطلاب</h4>
+                        </a>
+                    </li><!-- End Tab 5 Nav -->
+
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">
+                            <i class="bi bi-display color-gray"></i>
+                            <h4>الكنترول</h4>
+                        </a>
+                    </li><!-- End Tab 6 Nav -->
+
+                </ul>
+                <br /><br />
+                <ul class="nav nav-tabs row gy-4 d-flex">
+
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link  " data-bs-toggle="tab" data-bs-target="#tab-13">
+                            <i class="bi bi-person-rolodex color-cyan"></i>
+                            <h4> شوون الموظفين</h4>
+                        </a>
+                    </li><!-- End Tab 1 Nav -->
+
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                            <i class="bi bi-award color-indigo"></i>
+                            <h4> الانشطة الطلابية </h4>
+                        </a>
+                    </li><!-- End Tab 2 Nav -->
+
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link" href="/TransportationDepartment">
+                            <i class="bi bi-bus-front color-orange"></i>
+                            <h4>ادارة المواصلات</h4>
+                        </a>
+                    </li><!-- End Tab 3 Nav -->
+
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+                            <i class="bi bi-coin color-yellow"></i>
+                            <h4> الشون المالية</h4>
+                        </a>
+                    </li><!-- End Tab 4 Nav -->
+
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
+                            <i class="bi bi-box-seam "></i>
+                            <h4> مخزن المدرسة</h4>
+                        </a>
+                    </li><!-- End Tab 5 Nav -->
+
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">
+                            <i class="bi bi-card-list color-green"></i>
+                            <h4>تقارير النظام</h4>
+                        </a>
+                    </li><!-- End Tab 6 Nav -->
+
+                </ul>
+                <br /><br />
+
+                <ul class="nav nav-tabs row gy-4 d-flex">
+
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link  " data-bs-toggle="tab" data-bs-target="#tab-12">
+                            <i class="bi bi-briefcase "></i>
+                            <h4>  نظام الارشفة</h4>
+                        </a>
+                    </li><!-- End Tab 1 Nav -->
+
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                            <i class="bi bi-envelope-at color-red"></i>
+                            <h4>الرسائل النصية   </h4>
+                        </a>
+                    </li><!-- End Tab 2 Nav -->
+
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                            <i class="bi bi-book-half   color-green"></i>
+                            <h4> المكتبة   </h4>
+                        </a>
+                    </li><!-- End Tab 2 Nav -->
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                            <i class="bi bi-person-gear color-black"></i>
+                            <h4> المستخدمين   </h4>
+                        </a>
+                    </li><!-- End Tab 2 Nav -->
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+                            <i class="bi bi-sliders color-blue"></i>
+                            <h4>  الاعدادات</h4>
+                        </a>
+                    </li><!-- End Tab 3 Nav -->
+
+
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+                            <i class="bi bi-binoculars color-red"></i>
+                            <h4> من انظمتنا</h4>
+                        </a>
+                    </li><!-- End Tab 3 Nav -->
+
+
+
+                </ul>
+
+
+            </div>
+        </section><!-- End Features Section -->
+
+    </div>
+</div>
+
+
+
+
+@section scripts{
+    <script src="~/assets2/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets2/vendor/aos/aos.js"></script>
+    <script src="~/assets2/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="~/assets2/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="~/assets2/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="~/assets2/vendor/php-email-form/validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+    <!-- Template Main JS File -->
+    <script src="~/assets2/js/main.js"></script>
+    }
+<!--=================================
+wrapper -->

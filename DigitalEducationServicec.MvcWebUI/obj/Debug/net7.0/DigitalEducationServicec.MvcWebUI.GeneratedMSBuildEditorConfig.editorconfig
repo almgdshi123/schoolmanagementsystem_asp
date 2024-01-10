@@ -1,0 +1,225 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DigitalEducationServicec.MvcWebUI
+build_property.RootNamespace = DigitalEducationServicec.MvcWebUI
+build_property.ProjectDir = C:\Users\Demo\Desktop\DigitalEducationServices\DigitalEducationServicec\DigitalEducationServicec.MvcWebUI\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\Demo\Desktop\DigitalEducationServices\DigitalEducationServicec\DigitalEducationServicec.MvcWebUI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/auth/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcYXV0aFxsb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/Dashboard/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcRGFzaGJvYXJkXERhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/Sidebar/Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcU2lkZWJhclxTaWRlYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/SystemSetup/AcademicCalendar/DayData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcU3lzdGVtU2V0dXBcQWNhZGVtaWNDYWxlbmRhclxEYXlEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/SystemSetup/GeneralPreparations/AcademicStatuses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcU3lzdGVtU2V0dXBcR2VuZXJhbFByZXBhcmF0aW9uc1xBY2FkZW1pY1N0YXR1c2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/SystemSetup/GeneralPreparations/Stages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcU3lzdGVtU2V0dXBcR2VuZXJhbFByZXBhcmF0aW9uc1xTdGFnZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/SystemSetup/InitializeClass/ClassData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcU3lzdGVtU2V0dXBcSW5pdGlhbGl6ZUNsYXNzXENsYXNzRGF0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/SystemSetup/MaterialCreation/DistributionClassSub.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcU3lzdGVtU2V0dXBcTWF0ZXJpYWxDcmVhdGlvblxEaXN0cmlidXRpb25DbGFzc1N1Yi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/SystemSetup/MaterialCreation/Subject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcU3lzdGVtU2V0dXBcTWF0ZXJpYWxDcmVhdGlvblxTdWJqZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/SystemSetup/SettingUpGrades/Appreciation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcU3lzdGVtU2V0dXBcU2V0dGluZ1VwR3JhZGVzXEFwcHJlY2lhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/SystemSetup/SetTuitionFees/AcademicDiscount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcU3lzdGVtU2V0dXBcU2V0VHVpdGlvbkZlZXNcQWNhZGVtaWNEaXNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/SystemSetup/SetTuitionFees/AcademicSystems.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcU3lzdGVtU2V0dXBcU2V0VHVpdGlvbkZlZXNcQWNhZGVtaWNTeXN0ZW1zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/SystemSetup/SetTuitionFees/ClassTuitionFees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcU3lzdGVtU2V0dXBcU2V0VHVpdGlvbkZlZXNcQ2xhc3NUdWl0aW9uRmVlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/SystemSetup/SetTuitionFees/TypesTuitionFees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcU3lzdGVtU2V0dXBcU2V0VHVpdGlvbkZlZXNcVHlwZXNUdWl0aW9uRmVlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/SystemSetup/SystemSetup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcU3lzdGVtU2V0dXBcU3lzdGVtU2V0dXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/TransportationDepartment/Bus/Add_Bus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVHJhbnNwb3J0YXRpb25EZXBhcnRtZW50XEJ1c1xBZGRfQnVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/TransportationDepartment/Bus/Bus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVHJhbnNwb3J0YXRpb25EZXBhcnRtZW50XEJ1c1xCdXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/TransportationDepartment/Bus/Edit_Bus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVHJhbnNwb3J0YXRpb25EZXBhcnRtZW50XEJ1c1xFZGl0X0J1cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/TransportationDepartment/TransportationDepartment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVHJhbnNwb3J0YXRpb25EZXBhcnRtZW50XFRyYW5zcG9ydGF0aW9uRGVwYXJ0bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/AcademicCalendar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xBY2FkZW1pY0NhbGVuZGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/AcademicHoliday.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xBY2FkZW1pY0hvbGlkYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/AcademicMonth.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xBY2FkZW1pY01vbnRoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/AcademicPlan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xBY2FkZW1pY1BsYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/DetailsFeesInstalments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xEZXRhaWxzRmVlc0luc3RhbG1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/GuideClasses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xHdWlkZUNsYXNzZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/GuideCodeDivision.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xHdWlkZUNvZGVEaXZpc2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/GuideDivision.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xHdWlkZURpdmlzaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/GuideDocuments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xHdWlkZURvY3VtZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/GuideGradient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xHdWlkZUdyYWRpZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/GuideInstallmentCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xHdWlkZUluc3RhbGxtZW50Q2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/GuideMaterialsNotRequired.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xHdWlkZU1hdGVyaWFsc05vdFJlcXVpcmVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/GuideNationality.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xHdWlkZU5hdGlvbmFsaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/GuideNotifications.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xHdWlkZU5vdGlmaWNhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/GuideResidue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xHdWlkZVJlc2lkdWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/GuideSections.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xHdWlkZVNlY3Rpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/GuideStages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xHdWlkZVN0YWdlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/GuideTypesGrade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xHdWlkZVR5cGVzR3JhZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/InformationSchool.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xJbmZvcm1hdGlvblNjaG9vbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/PageSettings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xQYWdlU2V0dGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Pages/UIPages/Schoolyear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVUlQYWdlc1xTY2hvb2x5ZWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/TeacherTbs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclRic1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/TeacherTbs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclRic1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/TeacherTbs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclRic1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/TeacherTbs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclRic1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/TeacherTbs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclRic1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Demo/Desktop/DigitalEducationServices/DigitalEducationServicec/DigitalEducationServicec.MvcWebUI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qkngxtoqq8

@@ -1,0 +1,439 @@
+﻿@using DigitalEducationServicec.Application.Features.ClassTuitionFees.Queries.Results;
+@model List<GetClassTuitionFeesListResponse>
+
+@{
+    int i = 0;
+    ViewData["Title"] = " دليل  رسوم الصفوف   ";
+    ViewData["Icon"] = "  bi bi-cash-coin ";
+}
+@section Sidebar{
+
+    @Html.Partial("~/Views/Pages/Sidebar/Sidebar.cshtml")
+
+}
+
+
+<div class="row">
+
+
+
+    <div class="col-xl-12 mb-30">
+        <div class="card card-statistics h-100">
+            <div class="card-body">
+
+                <table class="table table-striped table-hover" style="text-align:center">
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal">
+                                    اظافة رسوم 
+                                    <i class="fa fa-plus color-orange " style="font-size:18px ;margin-right: 45px;"></i>
+
+                                </a>
+                            </th>
+
+                        </tr>
+                    </tbody>
+                </table>
+                </br>
+
+                <br><br>
+
+                <div class="table-responsive">
+                    <table id="datatable" class="table  table-hover table-sm table-bordered p-0" data-page-length="50"
+                           style="text-align: center">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th> اسم رسوم الصف  </th>
+
+                                <th> اسم الصف  </th>
+                                <th>  نوع </th>
+                                <th>  المبلغ </th>
+                                <th>   نوع الرسوم</th>
+
+                                <th> ملاحضات</th>
+
+                                <th>العلميات</th>
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+
+                            @foreach (var item in Model)
+                            {
+
+                                i++;
+                                <tr>
+
+                                    <td>@i</td>
+
+                                    <td>
+                                        @item.ClassTuitionFeesName
+                                    </td>
+
+                                    <td>
+                                        @item.ClassName  @item.ClassId
+                                    </td>
+                                    <td> @item.ClassTuitionFeesType </td>
+                                    <td>@item.Amount</td>
+                                    <td>
+                                        @item.TypesTuitionFeesName @item.TypesTuitionFeesId
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-info btn-sm" data-id="@item.ClassTuitionFeesId" data-name="@item.ClassTuitionFeesName"
+                                                data-val1="@item.ClassId" data-val2="@item.ClassTuitionFeesType" data-val3="@item.Amount" data-val4="@item.TypesTuitionFeesId" data-toggle="modal"
+                                                href="#exampleModal2" title="تعديل">
+                                            <i class="fa fa-edit"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
+                                                href="#modaldemo9" data-id="@item.ClassTuitionFeesId" data-name="@item.ClassCode"
+                                                title="حذف">
+                                            <i class="fa fa-trash"></i>
+                                        </button>
+                                    </td>
+
+                                </tr>
+                            }
+
+
+
+                            <!-- delete_modal_Grade -->
+                            <div class="modal fade" id="modaldemo9" tabindex="-1" role="dialog"
+                                 aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title"
+                                                id="exampleModalLabel">
+                                                حذف
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form asp-controller="ClassTuitionFees" asp-action="Delete" method="get">
+                                                هل انت متاكد من عملية الحذف ؟
+                                                <input id="id" name="ClassTuitionFeesId" class="form-control" hidden required
+                                                       value="">
+                                                <input class="form-control" name="name" id="name" type="text" readonly>
+
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">
+                                                        اغلاق
+                                                    </button>
+                                                    <button type="submit" class="btn btn-danger">ارسال</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    اظافة رسوم
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <!-- add_form -->
+                    <form asp-controller="ClassTuitionFees" asp-action="Create" method="post">
+                        <div class="row">
+                            <div class="col">
+                         
+                                <label for="Name" class="mr-sm-2">    اسم الرسوم     :</label>
+                                <input placeholder="  اكتب اسم الرسوم" required class="form-control" name="ClassTuitionFeesName" id="exampleFormControlTextarea1">
+
+                            </div>
+                            <div class="col">
+                                <label for="inputName"
+                                       class="control-label">اسم الصف</label>
+
+                                <select required name="ClassId"
+                                        class="custom-select">
+                                    <!--placeholder-->
+                                    <option id="val1"></option>
+
+                                    @foreach (var Class in ViewBag.Class)
+                                    {
+                                        <option value="@Class.ClassId">
+                                            @Class.ClassName
+                                        </option>
+                                    }
+
+                                </select>
+                            </div>
+
+                        </div>
+                        <br />
+
+                        <div class="row">
+                            <div class="col">
+                                <label for="inputName"
+                                       class="control-label">   الرسوم الدراسية </label>
+
+                                <select required name="TypesTuitionFeesId"
+                                        class="custom-select">
+                                    <!--placeholder-->
+                                    <option id="val4"></option>
+
+                                    @foreach (var Types in ViewBag.TypesTuition)
+                                    {
+                                        <option value="@Types.TypesTuitionFeesId">
+                                            @Types.TypesTuitionFeesName
+                                        </option>
+                                    }
+
+                                </select>
+                            </div>
+                       
+                            <div class="col">
+                                <label for="inputName"
+                                       class="control-label">   النوع الدراسية </label>
+
+                                <select required name="ClassTuitionFeesType"
+                                        class="custom-select">
+                                    <!--placeholder-->
+                                    <option id="val2"></option>
+
+                                    <option>
+                                        اجباري
+                                    </option>
+                                    <option>
+                                        اختياري
+                                    </option>
+
+                                </select>
+                            </div>
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">     المبلغ      :</label>
+                                <input id="val3" type="number" name="Amount" required class="form-control">
+                            </div>
+                           
+                            </div>
+                        <br />
+
+
+                        <br />
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">
+                                ملاحظات
+                                :
+                            </label>
+                            <textarea placeholder=" سجل ملاحضاتك هنا" class="form-control" name="notes" id="exampleFormControlTextarea1"
+                                      rows="3"></textarea>
+                        </div>
+                        <br><br>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                            <button type="submit" class="btn btn-success">ارسال</button>
+                        </div>
+                    </form>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- edit -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    تعديل رسوم الفصل
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <!-- add_form -->
+                    <form asp-controller="ClassTuitionFees" asp-action="Edit" method="post">
+                        <div class="row">
+                            <div class="col">
+                                <input id="id" name="ClassTuitionFeesId" class="form-control" hidden required
+                                       value="">
+                                <label for="Name" class="mr-sm-2">    اسم الرسوم     :</label>
+                                <input placeholder="  اكتب اسم الرسوم" required class="form-control" name="ClassTuitionFeesName" id="name">
+
+                            </div>
+                            <div class="col">
+                                <label for="inputName"
+                                       class="control-label">اسم الصف</label>
+
+                                <select required name="ClassId"
+                                        class="custom-select">
+                                    <!--placeholder-->
+                                    <option id="id1"></option>
+
+                                    @foreach (var Class in ViewBag.Class)
+                                    {
+                                        <option value="@Class.ClassId">
+                                            @Class.ClassName
+                                        </option>
+                                    }
+
+                                </select>
+                            </div>
+
+                        </div>
+                        <br />
+
+                        <div class="row">
+                            <div class="col">
+                                <label for="inputName"
+                                       class="control-label">   الرسوم الدراسية </label>
+
+                                <select required name="TypesTuitionFeesId"
+                                        class="custom-select">
+                                    <!--placeholder-->
+                                    <option id="id4"></option>
+
+                                    @foreach (var Types in ViewBag.TypesTuition)
+                                    {
+                                        <option value="@Types.TypesTuitionFeesId">
+                                            @Types.TypesTuitionFeesName
+                                        </option>
+                                    }
+
+                                </select>
+                            </div>
+
+                            <div class="col">
+                                <label for="inputName"
+                                       class="control-label">   النوع الدراسية </label>
+
+                                <select required name="ClassTuitionFeesType"
+                                        class="custom-select">
+                                    <!--placeholder-->
+                                    <option id="id2"></option>
+
+                                    <option>
+                                        اجباري
+                                    </option>
+                                    <option>
+                                        اختياري
+                                    </option>
+
+                                </select>
+                            </div>
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">     المبلغ      :</label>
+                                <input id="id3" type="number" name="Amount" required class="form-control">
+                            </div>
+
+                        </div>
+                        <br />
+
+
+                        <br />
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">
+                                ملاحظات
+                                :
+                            </label>
+                            <textarea placeholder=" سجل ملاحضاتك هنا" class="form-control" name="notes" id="exampleFormControlTextarea1"
+                                      rows="3"></textarea>
+                        </div>
+                        <br><br>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                            <button type="submit" class="btn btn-success">ارسال</button>
+                        </div>
+                    </form>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+@section scripts {
+
+    <script>
+        $('#exampleModal2').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget)
+            var id = button.data('id')
+            var name = button.data('name')
+
+            var val1 = button.data('val1')
+            var val2 = button.data('val2')
+            var val3 = button.data('val3')
+            var val4 = button.data('val4')
+            var modal = $(this)
+            modal.find('.modal-body #id').val(id);
+            modal.find('.modal-body #name').val(name);
+            modal.find('.modal-body #id1').val(val1);
+            modal.find('.modal-body #id2').val(val2);
+            modal.find('.modal-body #id3').val(val3);
+            modal.find('.modal-body #id4').val(val4);
+
+
+            var el_down = document.getElementById("id1");
+
+
+            el_down.innerHTML = "" + val1;
+
+            el_down = document.getElementById("id2");
+
+
+            el_down.innerHTML = "" + val2;
+            el_down = document.getElementById("id4");
+
+
+            el_down.innerHTML = "" + val4;
+
+
+
+        })
+    </script>
+    <script>
+        $('#modaldemo9').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget)
+            var id = button.data('id')
+            var name = button.data('name')
+            var modal = $(this)
+            modal.find('.modal-body #id').val(id);
+            modal.find('.modal-body #name').val(name);
+        })
+    </script>4
+
+}

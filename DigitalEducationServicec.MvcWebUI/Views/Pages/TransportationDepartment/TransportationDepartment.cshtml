@@ -1,0 +1,191 @@
+﻿@{
+    ViewData["Title"] = "  ادارة المواصلات   ";
+    ViewData["Icon"] = "bi bi-bus-front ";
+
+}
+@section style{
+    <link href="~/assets2/vendor/aos/aos.css" rel="stylesheet">
+    <link href="~/assets2/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="~/assets2/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+    <link href="~/assets2/css/variables-green.css" rel="stylesheet">
+    <link href="~/assets2/css/Dasboard.css" rel="stylesheet">
+    <style>
+        .accordion.gray .acd-heading {
+            font-family: Cairo;
+            background-color: #dee2e6;
+        }
+
+        .accordion .acd-group .acd-heading {
+            color: #0044cc;
+        }
+
+        .accordion.gray .acd-group.acd-active .acd-heading {
+            color: #ffffff;
+            background: #28A7B6;
+        }
+
+        .accordion.gray .acd-heading:hover {
+            color: #ffffff;
+            background: #28A7B6;
+        }
+
+        .btn-get-started {
+            font-size: 18px;
+            font-weight: 400;
+            display: inline-block;
+            padding: 10px 28px;
+            border-radius: 4px;
+            transition: 0.5s;
+            color: var(--color-white);
+            background: var(--color-primary);
+            font-family: 'Cairo';
+        }
+    </style>
+
+}
+@section Sidebar{
+
+    @Html.Partial("~/Views/Pages/Sidebar/Sidebar.cshtml")
+
+}
+
+
+<div class="page-title">
+
+    <div class="row">
+        <div class="col-sm-6">
+        </div>
+        <div class="col-sm-6">
+            <ol class="breadcrumb pt-0 pr-0 float-left float-sm-right">
+            </ol>
+        </div>
+    </div>
+</div>
+<!-- widgets -->
+
+
+<div class="calendar-main mb-30">
+    <div class="">
+        <br />
+
+        <section id="hero-animated" class="hero-animated d-flex align-items-center">
+            <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative"
+                 data-aos="zoom-out">
+                <h2>  @ViewData["Title"]   <span>نظام ادارة المدارس</span></h2>
+
+
+            </div>
+        </section>
+        <br /><br />
+        <!-- ======= Features Section ======= -->
+        <section id="features" class="features">
+            <div style="
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+" data-aos="fade-up">
+
+      
+
+                <ul class="nav nav-tabs row gy-4 ">
+
+                    <li class="nav-item col-9 col-md-6 col-lg-3">
+                        <a class="nav-link  " href="/Bus" >
+                            <i class="bi bi-person-vcard" style="color: yellowgreen"></i>
+                            <h4> السائقين  </h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-9 col-md-6 col-lg-3">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+                            <i class="bi bi-bus-front" style="color: purple"></i>
+                            <h4>  الحافلات </h4>
+                        </a>
+                    </li>
+
+
+
+                    <li class="nav-item col-9 col-md-6 col-lg-3">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                            <i class="bi bi-sign-turn-right-fill " style=" color: green"></i>
+                            <h4>   تحديد المسارات وجدول الرحلات</h4>
+                        </a>
+                    </li>
+
+                    <li class="nav-item col-9 col-md-6 col-lg-3">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+                            <i class="bi bi-pin-map color-blue "></i>
+                            <h4> توزيع الطلاب على الحافلات</h4>
+                        </a>
+                    </li>
+
+                
+                    <li class="nav-item col-9 col-md-6 col-lg-3">
+                        <a class="nav-link  " data-bs-toggle="tab" data-bs-target="#tab-5">
+                            <i class="bi-graph-up-arrow color-red"></i>
+                            <h4> أداء خدمة النقل المدرسي </h4>
+                        </a>
+                    </li>
+
+              
+                    <li class="nav-item col-9 col-md-6 col-lg-3">
+                        <a class="nav-link  " data-bs-toggle="tab" data-bs-target="#tab-5">
+                            <i class="bi-diagram-3-fill color-yellow"></i>
+                            <h4>
+                               المعلومات والتقارير
+                            </h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-9 col-md-6 col-lg-3">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">
+                            <i class="bi bi-cash-coin color-primary-light"></i>
+                            <h4> الحسابات </h4>
+                        </a>
+                    </li>
+
+                    <li class="nav-item col-9 col-md-6 col-lg-3">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-7">
+                            <i class="bi bi-cone-striped color-orange"></i>
+                            <h4> وضع معايير السلامة</h4>
+                        </a>
+                    </li>
+
+
+
+                </ul>
+
+
+
+            </div>
+        </section><!-- End Features Section -->
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+@section scripts{
+    <script src="~/assets2/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets2/vendor/aos/aos.js"></script>
+    <script src="~/assets2/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="~/assets2/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="~/assets2/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="~/assets2/vendor/php-email-form/validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+    <!-- Template Main JS File -->
+    <script src="~/assets2/js/main.js"></script>
+    }

@@ -1,0 +1,423 @@
+﻿@using DigitalEducationServicec.Application.Features.DistributionClassSub.Queries.Results;
+@using DigitalEducationServicec.Application.Features.Subject.Queries.Results;
+@model List<GetDistributionClassSubListResponse>
+@{
+    int i = 0;
+    ViewData["Title"] = "    توزيع المواد على الصفوف      ";
+    ViewData["Icon"] = "  bi bi-clipboard-data ";
+    List<GetSubjectListResponse> subjct =  ViewBag.Subject ;
+    ; var name = new GetSubjectListResponse();
+}
+
+@section Sidebar{
+    <link href="
+https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.18/dist/css/bootstrap-select.min.css
+" rel="stylesheet">
+    <style>
+   
+
+ 
+
+
+        .accordion.gray .acd-group.acd-active .acd-heading {
+            background: #28A7B6;
+        }
+
+        .accordion.gray .acd-heading:hover {
+            background: #28A7B6;
+        }
+
+   
+    </style>
+    @Html.Partial("~/Views/Pages/Sidebar/Sidebar.cshtml")
+
+}
+
+
+<div class="row">
+    <div class="col-md-12 mb-30">
+        <div class="card card-statistics h-100">
+            <div class="card-body">
+                <table class="table table-striped table-hover" style="text-align:center">
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal">
+                                    توزيع المواد
+                                    <i class="fa fa-plus color-orange " style="font-size:18px ;margin-right: 45px;"></i>
+
+                                </a>
+                            </th>
+
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+            </div>
+
+
+
+            <div class="card card-statistics h-100">
+                <div class="card-body">
+                    <div class="accordion gray plus-icon round">
+                        @foreach (var Class_room in ViewBag.Class)
+                        {
+                            <div class="acd-group">
+                                <a href="#" class="acd-heading">@Class_room.ClassName</a>
+                                <div class="acd-des">
+
+                                    <div class="row">
+                                        <div class="col-xl-12 mb-30">
+                                            <div class="card card-statistics h-100">
+                                                <div class="card-body">
+                                                    <div class="d-block d-md-flex justify-content-between">
+                                                        <div class="d-block">
+                                                        </div>
+                                                    </div>
+                                                    <a 
+                                                       class="btn btn-outline-info "
+                                                       data-id="@Class_room.ClassId" data-name="@Class_room.ClassName"
+                                                      data-toggle="modal"    href="#exampleModal2" >اظافة مادة واحدة الى قائمة</a>
+                                                    <a href="#modaldemo8"
+                                                       class="btn btn-outline-danger "
+                                                       data-id="@Class_room.ClassId" data-name="@Class_room.ClassName"
+                                                       data-toggle="modal" >حذف كل المواد</a>
+                                                    <br>
+                                                    <div class="table-responsive mt-15">
+                                                       
+                                                        <table class="table center-aligned-table mb-0">
+                                                            <thead>
+                                                                <tr class="text-dark">
+                                                                    <th>#</th>
+                                                                    <th> اسم الصف  </th>
+                                                                    <th>   المادة </th>
+                                                                    <th>   العمليات </th>
+
+
+
+
+
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                @foreach (var item in Model)
+                                                                {
+                                                                    if (item.ClassId == Class_room.ClassId)
+                                                                    {
+
+                                                                        i = i + 1;
+                                                                      
+                                                                                name = subjct.Find(x => x.SubjectId == item.SubjectId);
+                                                                            
+
+                                                                        <tr>
+                                                                            <td>@i</td>
+                                                                            <td>@Class_room.ClassName</td>
+                                                                            <td>
+
+                                                                                @name.SubjectNameArabic
+                                                                            </td>
+                                                                            <td>
+                                                                            <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
+                                                                                    href="#modaldemo9" data-id="@item.DistrClassSubId" data-name="@name.SubjectNameArabic"
+                                                                                    title="حذف">
+                                                                                <i class="fa fa-trash"></i>
+                                                                                </button>
+                                                                            </td>
+                     
+                                                                        </tr>
+
+
+
+
+                                                                    }
+                                                                }
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        }
+                    </div>
+                </div>
+
+                <!-- حذف مادة واحدة -->
+                <div class="modal fade" id="modaldemo9" tabindex="-1" role="dialog"
+                     aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title"
+                                    id="exampleModalLabel">
+                                    حذف
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form asp-controller="DistributionClassSub" asp-action="Delete" method="get">
+                                    هل انت متاكد من عملية الحذف ؟
+                                    <input id="id" name="DistrClassSubId" class="form-control" hidden required
+                                           value="">
+                                    <input class="form-control" name="name" id="name" type="text" readonly>
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">
+                                            اغلاق
+                                        </button>
+                                        <button type="submit" class="btn btn-danger">ارسال</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- حذف كل المواد  -->
+                <div class="modal fade" id="modaldemo8" tabindex="-1" role="dialog"
+                     aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title"
+                                    id="exampleModalLabel">
+                                    حذف كل المواد
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form asp-controller="DistributionClassSub" asp-action="DeleteِAli" method="get">
+                                    هل انت متاكد من عملية الحذف ؟
+                                    <input id="id" name="ClassId" class="form-control" hidden required
+                                           value="">
+                                    <label for="inputName"
+                                           class="control-label">   سوف يتم حذف كل المواد لمرتبطة بهذا الصف </label>
+
+
+                                    <input class="form-control" name="name" id="name" type="text" readonly>
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">
+                                            اغلاق
+                                        </button>
+                                        <button type="submit" class="btn btn-danger">ارسال</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- اظافة مادة -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog"
+                     aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title"
+                                    id="exampleModalLabel">
+                                     اظافة مادة
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- add_form -->
+                                <form asp-controller="DistributionClassSub" asp-action="AddSubject" method="post">
+                                    <div class="row">
+
+                                        <div class="col">
+                                            <input id="id" name="ClassId" class="form-control" hidden required
+                                                   value="">
+                                            <label for="inputName"
+                                                   class="control-label">اسم الصف</label>
+
+                                            <input class="form-control" name="name" id="name" type="text" readonly>
+                                            <br />
+                                            <label for="Name" class="mr-sm-2">     المادة  :</label>
+                                            <div class="col-lg-9">
+                                                <select data-placeholder="اختار اسم المادة من القائمة " required name="SubjectId" id="current_session" class="select-search selectpicker">
+                                                    @foreach (var Subject in ViewBag.Subject)
+                                                    {
+
+                                                        <option value="@Subject.SubjectId"> @Subject.SubjectNameArabic </option>
+                                                    }
+
+                                                </select>
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+                                    <br />
+
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">
+                                            ملاحظات
+                                            :
+                                        </label>
+                                        <textarea placeholder=" سجل ملاحضاتك هنا" class="form-control" name="Notes" id="exampleFormControlTextarea1"
+                                                  rows="3"></textarea>
+                                    </div>
+                                    <br><br>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                                        <button type="submit" class="btn btn-success">ارسال</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+
+                                توزيع  المواد على الصفوف
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+
+                                <!-- add_form -->
+                                <form asp-controller="DistributionClassSub" asp-action="Create" method="post">
+
+
+                                    <div class="row">
+                                        <div class="col">
+                                            <label for="inputName"
+                                                   class="control-label"> الصف</label>
+
+                                            <select required name="ClassId"
+                                                    class="custom-select">
+                                                <!--placeholder-->
+                                                @foreach (var Class in ViewBag.Class)
+                                                {
+                                                    if ((Model.Where(x => x.ClassId == Class.ClassId).Count()) == 0)
+                                                    {
+                                                        <option value="@Class.ClassId">
+                                                            @Class.ClassName
+                                                        </option>
+                                                    }
+                                                }
+
+                                            </select>
+                                        </div>
+
+
+
+
+                                    </div>
+                                    <br>
+
+
+                                    <div class="col">
+
+                                        <label for="inputName"
+                                               class="control-label"> المواد</label>
+                                        <select multiple required name="SubjectId[]" class="form-control"
+                                                id="exampleFormControlSelect2">
+                                            @foreach (var Subject in ViewBag.Subject)
+                                            {
+
+                                                <option value="@Subject.SubjectId"> @Subject.SubjectNameArabic </option>
+                                            }
+
+
+                                        </select>
+                                    </div>
+
+                                    <br />
+                                    <div class="col">
+                                        <label for="inputName"
+                                               class="control-label">النصاب </label>
+                                        <input name="" placeholder="ادخل سعة الفصل من الطالب هنا" class="form-control" />
+
+                                    </div>
+                                    <br>
+
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">
+                                            ملاحظات
+                                            :
+                                        </label>
+                                        <textarea placeholder=" سجل ملاحضاتك هنا" class="form-control" name="Note" id="exampleFormControlTextarea1"
+                                                  rows="3"></textarea>
+                                    </div>
+                                    <br><br>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                                        <button type="submit" class="btn btn-danger">حفظ البيانات</button>
+                                    </div>
+                                </form>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        @section scripts {
+
+            <!-- (Optional) Latest compiled and minified JavaScript translation files -->
+            <script src="
+https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.18/js/bootstrap-select.min.js
+"></script>
+            <script>
+
+
+                $('#exampleModal2').on('show.bs.modal', function (event) {
+                    var button = $(event.relatedTarget)
+                    var id = button.data('id')
+                    var name = button.data('name')
+
+                    var modal = $(this)
+                    modal.find('.modal-body #id').val(id);
+                    modal.find('.modal-body #name').val(name);
+
+                })
+            </script>
+            <script>
+                $('#modaldemo9').on('show.bs.modal', function (event) {
+                    var button = $(event.relatedTarget)
+                    var id = button.data('id')
+                    var name = button.data('name')
+                    var modal = $(this)
+                    modal.find('.modal-body #id').val(id);
+                    modal.find('.modal-body #name').val(name);
+                })
+            </script>
+            <script>
+                $('#modaldemo8').on('show.bs.modal', function (event) {
+                    var button = $(event.relatedTarget)
+                    var id = button.data('id')
+                    var name = button.data('name')
+                    var modal = $(this)
+                    modal.find('.modal-body #id').val(id);
+                    modal.find('.modal-body #name').val(name);
+                })
+            </script>
+        }

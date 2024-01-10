@@ -1,0 +1,575 @@
+﻿@{
+    ViewData["Title"] = "  تهيئة النظام  ";
+    ViewData["Icon"] = " bi bi-database-fill-gear ";
+
+}
+@section style{
+    <link href="~/assets2/vendor/aos/aos.css" rel="stylesheet">
+    <link href="~/assets2/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="~/assets2/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+    <link href="~/assets2/css/variables-green.css" rel="stylesheet">
+    <link href="~/assets2/css/Dasboard.css" rel="stylesheet">
+    <style>
+        .accordion.gray .acd-heading {
+            font-family: Cairo;
+            background-color: #dee2e6;
+        }
+
+        .accordion .acd-group .acd-heading {
+            color: #0044cc;
+        }
+
+        .accordion.gray .acd-group.acd-active .acd-heading {
+            color: #ffffff;
+            background: #28A7B6;
+        }
+
+        .accordion.gray .acd-heading:hover {
+            color: #ffffff;
+            background: #28A7B6;
+        }
+
+         .btn-get-started {
+            font-size: 16px;
+            font-weight: 400;
+            display: inline-block;
+            padding: 10px 28px;
+            border-radius: 4px;
+            transition: 0.5s;
+            color: var(--color-white);
+            background: var(--color-primary);
+            font-family: 'Cairo';
+        }
+    </style>
+
+}
+@section Sidebar{
+
+    @Html.Partial("~/Views/Pages/Sidebar/Sidebar.cshtml")
+
+}
+
+
+<div class="page-title">
+
+    <div class="row">
+        <div class="col-sm-6">
+        </div>
+        <div class="col-sm-6">
+            <ol class="breadcrumb pt-0 pr-0 float-left float-sm-right">
+            </ol>
+        </div>
+    </div>
+</div>
+<!-- widgets -->
+
+
+<div class="calendar-main mb-30">
+    <div class="">
+        <br />
+
+        <section id="hero-animated" class="hero-animated d-flex align-items-center">
+            <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative"
+                 data-aos="zoom-out">
+                <h2>    @ViewData["Title"] <span>نظام ادارة المدارس</span></h2>
+
+
+            </div>
+        </section>
+        <br /><br />
+        <!-- ======= Features Section ======= -->
+        <section id="features" class="features">
+            <div style="
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+" data-aos="fade-up">
+
+                <!--بداية القوئم المسندلة  -->
+                <div class="tab-content">
+
+                    <div class="tab-pane " id="tab-1">
+                        <!--link-->
+
+
+                        <div class="accordion gray plus-icon round">
+
+                            
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">معلومات المدرسة</a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading "> دليل السنوات الدرسية</a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading "> الحالة الدرسية</a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="/AcademicStatuses">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">دليل الاقسام</a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">دليل المرحل الدارسية</a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="/Stage">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">دليل الحصص الدرسية</a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading "> الحصص الدرسية</a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">دليل االجنسيات</a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">دليل انواع الوثائق</a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">  دليل الاشعارت الطلابي</a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading "> دليل المخالفات</a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">سجل  الزوار</a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">  التنبيهات</a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!--link end -->
+                    </div><!-- End Tab Content 1 -->
+
+
+
+
+                    <div class="tab-pane " id="tab-2">
+                        <!--link-->
+
+
+                        <div class="accordion gray plus-icon round">
+
+
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">   التقويم الدارسي </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">   الخطة الدراسية </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="/AcademicDiscount">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">دليل الايام الدراسية</a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="/DayData">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">دليل الاشهر الدراسية </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">  دليل الاجازات</a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <!--link end -->
+                    </div><!-- End Tab Content 2 -->
+
+                    <div class="tab-pane " id="tab-3">
+                        <!--link-->
+
+
+                        <div class="accordion gray plus-icon round">
+
+
+                            <div class="acd-group ">
+                                <a class="acd-heading ">    دليل الصفوف  </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="/ClassData">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">    دليل تدرج الصفوف </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="/AcademicDiscount">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">دليل رموز الشعب </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">دليل الشعب  </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">  اسناد وثاق الصفوف </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">دليل القاعات الدراسية </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading "> توزيع الشعب القاعات  </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">   دليل المعامل  </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!--link end -->
+                    </div><!-- End Tab Content 3 -->
+
+                    <div class="tab-pane " id="tab-4">
+                        <!--link-->
+
+
+                        <div class="accordion gray plus-icon round">
+
+
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">    دليل المواد الدراسية  </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="/Subject">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">    دليل المواد التقديرية  </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="/AcademicDiscount">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">توزيع المواد على الصفوف   </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="/DistributionClassSub">الانتقال</a>
+
+                                </div>
+                            </div>
+                           
+
+                        </div>
+
+                        <!--link end -->
+                    </div><!-- End Tab Content 4 -->
+
+
+                    <div class="tab-pane " id="tab-5">
+                        <!--link-->
+
+
+                        <div class="accordion gray plus-icon round">
+
+
+                            <div class="acd-group ">
+                                <a href="/" class="acd-heading ">    دليل انواع الدرجات  </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">    دليل  التقديرات </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="/Appreciation">الانتقال</a>
+
+                                </div>
+                            </div>
+                         
+
+                        </div>
+
+                        <!--link end -->
+                    </div><!-- End Tab Content 5 -->
+
+                    <div class="tab-pane " id="tab-6">
+                        <!--link-->
+
+
+                        <div class="accordion gray plus-icon round">
+
+                        
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">دليل فئات الرسوم </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="/TypesTuitionFees">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">  الأنظمة الأكاديمية  </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="/AcademicSystems">الانتقال</a>
+
+                                </div>
+                            </div>
+
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading "> دليل فئات الخصم </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="/AcademicDiscount">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">دليل فئات الاقساط</a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">دليل رسوم الصفوف </a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="/ClassTuitionFees">الانتقال</a>
+
+                                </div>
+                            </div>
+                            <div class="acd-group ">
+                                <a href="#" class="acd-heading ">  دليل الغرامات</a>
+
+                                <div class="acd-des">
+                                    <a class="btn-get-started " href="index.html#about">الانتقال</a>
+
+                                </div>
+                            </div>
+                    
+                     
+
+                        </div>
+
+
+
+
+
+                        <!--link end -->
+                    </div><!-- End Tab Content 6 -->
+
+
+                </div>
+                <!--نهاية القوئم المنسدلة-->
+
+
+                <ul class="nav nav-tabs row gy-4 ">
+
+                    <li class="nav-item col-9 col-md-6 col-lg-3">
+                        <a class="nav-link  " data-bs-target="#tab-1" href="/SystemSetup#tab-1" data-bs-toggle="tab">
+                            <i class="bi bi-building-gear color-red"></i>
+                            <h4> التهيئة العامة</h4>
+                        </a>
+                    </li>
+
+                    <li class="nav-item col-9 col-md-6 col-lg-3">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                            <i class="bi bi-calendar-day color-green"></i>
+                            <h4>تهيئة التقويم الدراسي</h4>
+                        </a>
+                    </li>
+
+                    <li class="nav-item col-9 col-md-6 col-lg-3">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+                            <i class="bi bi-door-open "></i>
+                            <h4>تهيئة الصفوف</h4>
+                        </a>
+                    </li>
+
+                    <li class="nav-item col-9 col-md-6 col-lg-3">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+                            <i class="bi bi-clipboard-data color-purple"></i>
+                            <h4>تهيئة المواد</h4>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item col-9 col-md-6 col-lg-3">
+                        <a class="nav-link  " data-bs-toggle="tab" data-bs-target="#tab-5">
+                            <i class="bi-pencil-square color-yellow"></i>
+                            <h4>تهيئة الدرجات</h4>
+                        </a>
+                    </li>
+
+                    <li class="nav-item col-9 col-md-6 col-lg-3">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">
+                            <i class="bi bi-cash-coin color-primary-light"></i>
+                            <h4>تهيئة الرسوم الدراسية</h4>
+                        </a>
+                    </li>
+
+                    <li class="nav-item col-9 col-md-6 col-lg-3">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-7">
+                            <i class="bi bi-phone-flip color-blue"></i>
+                            <h4>تهيئة التطبيق</h4>
+                        </a>
+                    </li>
+
+
+
+                </ul>
+               
+
+
+                    </div>
+        </section><!-- End Features Section -->
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+@section scripts{
+    <script src="~/assets2/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets2/vendor/aos/aos.js"></script>
+    <script src="~/assets2/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="~/assets2/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="~/assets2/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="~/assets2/vendor/php-email-form/validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+    <!-- Template Main JS File -->
+    <script src="~/assets2/js/main.js"></script>
+    }

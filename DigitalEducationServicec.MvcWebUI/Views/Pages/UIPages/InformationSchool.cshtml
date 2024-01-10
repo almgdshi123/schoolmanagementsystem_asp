@@ -1,0 +1,193 @@
+﻿@{
+    int i = 0;
+    ViewData["Title"] = "     معلومات المدرسة  ";
+}
+@section style{
+    <link href="
+https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.18/dist/css/bootstrap-select.min.css
+" rel="stylesheet">
+    <style>
+
+        .content-wrapper {
+            margin-right: 0
+        }
+    </style>
+
+}
+<!-- row -->
+<div class="row">
+    <div class="col-md-12 mb-30">
+
+        <div class="card card-statistics h-100">
+            <div class="card-body">
+                <form enctype="multipart/form-data" method="post" action="{{route('settings.update','test')}}">
+                    <table class="table table-striped table-hover" style="text-align:center">
+                        <tbody>
+                            <tr>
+                                <th scope="row">البيانات العامة</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="row">
+
+                        <div class="col-md-6 border-right-2 border-right-blue-400">
+                   
+
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label font-weight-semibold">اسم الدولة </label>
+                                <div class="col-lg-9">
+                                    <input name="school_title" value="الجمهورية اليمنية" type="text" class="form-control" placeholder="School Acronym">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label font-weight-semibold">اسم الوزاة </label>
+                                <div class="col-lg-9">
+                                    <input name="phone" value="وزارة التربية وتعليم" type="text" class="form-control" placeholder="Phone">
+                                </div>
+                            </div>
+                          
+
+                        </div>
+                        <div class="col-md-6 border-right-2 border-right-blue-400">
+
+                          
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label font-weight-semibold">مكتب التربية</label>
+                                <div class="col-lg-9">
+                                    <input name="school_email" value="مكتب التربية وتعليم" type="email" class="form-control" placeholder="School Email">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label font-weight-semibold"> المنطقة المحافظة<span class="text-danger">*</span></label>
+                                <div class="col-lg-9">
+                                    <input required name="address" value="ذمار" type="text" class="form-control" placeholder="School Address">
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <hr>
+                    <button class="btn btn-success btn-sm nextBtn btn-lg pull-right" type="submit">تاكيد</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12 mb-30">
+        <div class="card card-statistics h-100">
+            <div class="card-body">
+                <form enctype="multipart/form-data" method="post" action="{{route('settings.update','test')}}">
+                    <table class="table table-striped table-hover" style="text-align:center">
+                        <tbody>
+                            <tr>
+                                <th scope="row">البيانات الخاصة</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="row">
+
+                        <div class="col-md-6 border-right-2 border-right-blue-400">
+                         
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label font-weight-semibold">اسم المدرسة<span class="text-danger">*</span></label>
+                                <div class="col-lg-9">
+                                    <input name="school_name" value="المعرفة الاهلية النموذجية" required type="text" class="form-control" placeholder="Name of School">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="current_session" class="col-lg-2 col-form-label font-weight-semibold">العام الحالي<span class="text-danger">*</span></label>
+                                <div class="col-lg-9">
+                                    <select data-placeholder="Choose..." required name="current_session" id="current_session" class="select-search selectpicker">
+                                        <option value="">2022</option>
+                                        <option>2023</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label font-weight-semibold">اسم المدرسة المختصر</label>
+                                <div class="col-lg-9">
+                                    <input name="school_title" value="المعرفة" type="text" class="form-control" placeholder="School Acronym">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label font-weight-semibold">الهاتف</label>
+                                <div class="col-lg-9">
+                                    <input name="phone" value="774749697" type="text" class="form-control" placeholder="Phone">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label font-weight-semibold">البريد الالكتروني</label>
+                                <div class="col-lg-9">
+                                    <input name="school_email" value="exmmple@eamle.com" type="email" class="form-control" placeholder="School Email">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label font-weight-semibold">عنوان المدرسة<span class="text-danger">*</span></label>
+                                <div class="col-lg-9">
+                                    <input required name="address" value="ذمار" type="text" class="form-control" placeholder="School Address">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label font-weight-semibold">نهاية الترم الاول </label>
+                                <div class="col-lg-9">
+                                    <input name="end_first_term" value="2022/8/7" type="text" class="form-control date-pick" placeholder="Date Term Ends">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label font-weight-semibold">نهاية الترم الثاني</label>
+                                <div class="col-lg-9">
+                                    <input name="end_second_term" value="2023/2/3" type="text" class="form-control date-pick" placeholder="Date Term Ends">
+                                </div>
+                            </div>
+
+                        
+                        </div>
+
+                        <div class="col-md-6 border-right-2 border-right-blue-400">
+                        <div class="form-group row" style="text-align:center">
+                            <table class="table " style="text-align:center">
+                                <tbody>
+                                    <tr>
+                                        <th > شعار المدرسة</th>
+                                    </tr>
+                                    <tr>
+                                            <th>
+                                                <div class="col-lg-9">
+                                                    <div class="mb-3">
+                                                <img style="width: 500px" height="400px" src="~/assets/images/favicon.png" alt="">
+                                                <input name="logo" accept="image/*" type="file" class="file-input" data-show-caption="false" data-show-upload="false" data-fouc>
+                                       </div></div> </th>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <hr>
+
+                    <button class="btn btn-success btn-sm nextBtn btn-lg " type="submit">تاكيد</button>
+
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+@section scripts {
+
+
+    <!-- (Optional) Latest compiled and minified JavaScript translation files -->
+    <script src="
+https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.18/js/bootstrap-select.min.js
+"></script>
+}

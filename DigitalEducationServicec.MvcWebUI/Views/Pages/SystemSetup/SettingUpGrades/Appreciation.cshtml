@@ -1,0 +1,344 @@
+﻿@using DigitalEducationServicec.Application.Features.Appreciation.Queries.Results;
+@model List<GetAppreciationListResponse>
+
+@{
+    int i = 0;
+    ViewData["Title"] = "     دليل التقديرات      ";
+    ViewData["Icon"] = " bi-pencil-square ";
+}
+@section Sidebar{
+
+    @Html.Partial("~/Views/Pages/Sidebar/Sidebar.cshtml")
+
+}
+
+
+<div class="row">
+
+
+
+    <div class="col-xl-12 mb-30">
+        <div class="card card-statistics h-100">
+            <div class="card-body">
+
+                <table class="table table-striped table-hover" style="text-align:center">
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal">
+                                    اظافة تقدير
+                                    <i class="fa fa-plus color-orange " style="font-size:18px ;margin-right: 45px;"></i>
+
+                                </a>
+                            </th>
+
+                        </tr>
+                    </tbody>
+                </table>
+                </br>
+
+                <br><br>
+
+                <div class="table-responsive">
+                    <table id="datatable" class="table  table-hover table-sm table-bordered p-0" data-page-length="50"
+                           style="text-align: center">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>  التقدير   </th>
+                                <th>    التقدير الاجنبيى</th>
+                                <th>  النسبة الضغرى</th>
+                                <th>  النسبة الكبرى</th>
+                                <th>    الون المميز   </th>
+
+
+
+                                <th> ملاحضات</th>
+
+                                <th>العلميات</th>
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            @foreach (var item in Model)
+                            {
+
+                                i++;
+                                <tr>
+
+                                    <td>@i</td>
+
+                                    <td>
+                                        @item.AppreciationName
+                                    </td>
+                                    <td> @item.AppreciationNameEn </td>
+                                    <td>@item.LowScore</td>
+                                    <td> @item.HighScore </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <button type="button" class="btn btn-info btn-sm" data-id="@item.AppreciationId" data-name="@item.AppreciationName"
+                                                data-low="@item.LowScore" data-high="@item.HighScore" data-nameen="@item.AppreciationNameEn" data-toggle="modal"
+                                                href="#exampleModal2" title="تعديل">
+                                            <i class="fa fa-edit"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
+                                                href="#modaldemo9" data-id="@item.AppreciationId" data-name="@item.AppreciationNameEn"
+                                                title="حذف">
+                                            <i class="fa fa-trash"></i>
+                                        </button>
+                                    </td>
+
+                                </tr>
+                            }
+
+
+                            <!-- delete_modal_Grade -->
+                            <div class="modal fade" id="modaldemo9" tabindex="-1" role="dialog"
+                                 aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title"
+                                                id="exampleModalLabel">
+                                                حذف
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form asp-controller="Appreciation" asp-action="Delete" method="get">
+                                                هل انت متاكد من عملية الحذف ؟
+                                                <input id="id" name="AppreciationId" class="form-control" hidden required
+                                                       value="">
+                                                <input class="form-control" name="name" id="name" type="text" readonly>
+
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">
+                                                        اغلاق
+                                                    </button>
+                                                    <button type="submit" class="btn btn-danger">ارسال</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    اظافة تقدير
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <!-- add_form -->
+                    <form asp-controller="Appreciation" asp-action="Create" method="post">
+                        <div class="row">
+                            <div class="col">
+                                <label for="AppreciationName" class="mr-sm-2">    اسم التقدير    :</label>
+                                <input placeholder="  اكتب اسم تقدير" class="form-control" name="AppreciationName" required id="exampleFormControlTextarea1">
+
+                            </div>
+
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">    الاسم الاجنبي     :</label>
+                                <input placeholder="  اكتب اسم الاجنبي" class="form-control" name="AppreciationNameEn" required id="nameEn">
+
+                            </div>
+
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">    الاسم المختصر     :</label>
+                                <input placeholder="   اسم المختصر" class="form-control" name="#">
+
+                            </div>
+                        </div>
+                        <br />
+                        <div class="col">
+
+
+                            <!-- Rounded switch -->
+
+                            <br />
+
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">    النسبة الصغرى    :</label>
+                                <input id="Name" type="number" placeholder="الدرجة الصغرى " required name="LowScore" value="2022-2023" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">   النسبة الكبرى      :</label>
+                                <input id="Name" placeholder="الدرجة الكبرى" type="number" required name="HighScore" value="1445-1444" class="form-control">
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">
+                                ملاحظات
+                                :
+                            </label>
+                            <textarea placeholder=" سجل ملاحضاتك هنا" class="form-control" name="notes" id="exampleFormControlTextarea1"
+                                      rows="3"></textarea>
+                        </div>
+                        <br><br>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                            <button type="submit" class="btn btn-success">ارسال</button>
+                        </div>
+                    </form>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- edit -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title"
+                        id="exampleModalLabel">
+                        تعديل الخصم
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form asp-controller="Appreciation" asp-action="Edit" method="post">
+                        <div class="row">
+                            <div class="col">
+                                <input id="id" name="AppreciationId" class="form-control" hidden required
+                                       value="">
+                                <label for="AppreciationName" class="mr-sm-2">    اسم التقدير    :</label>
+                                <input placeholder="  اكتب اسم تقدير" class="form-control" name="AppreciationName" required id="name">
+
+                            </div>
+
+                            <div class="col">
+                                <label for="name" class="mr-sm-2">    الاسم الاجنبي     :</label>
+                                <input placeholder="  اكتب اسم الاجنبي" class="form-control" name="AppreciationNameEn" required id="nameen">
+
+                            </div>
+
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">    الاسم المختصر     :</label>
+                                <input placeholder="   اسم المختصر" class="form-control" name="#" id="exampleFormControlTextarea1">
+
+                            </div>
+                        </div>
+                        <br />
+                        <div class="col">
+
+
+                            <!-- Rounded switch -->
+
+                            <br />
+
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">    النسبة الصغرى    :</label>
+                                <input id="low" type="number" placeholder="الدرجة الصغرى " required name="LowScore" value="2022-2023" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">   النسبة الكبرى      :</label>
+                                <input id="high" placeholder="الدرجة الكبرى" type="number" required name="HighScore" value="1445-1444" class="form-control">
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">
+                                ملاحظات
+                                :
+                            </label>
+                            <textarea placeholder=" سجل ملاحضاتك هنا" class="form-control" name="notes" id="exampleFormControlTextarea1"
+                                      rows="3"></textarea>
+                        </div>
+                        <br><br>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                            <button type="submit" class="btn btn-success">ارسال</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+@section scripts {
+
+
+
+    <script>
+
+
+        $('#exampleModal2').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget)
+            var id = button.data('id')
+            var name = button.data('name')
+            var low = button.data('low')
+            var high = button.data('high')
+
+            var nameen = button.data('nameen')
+
+            var modal = $(this)
+            modal.find('.modal-body #id').val(id);
+            modal.find('.modal-body #name').val(name);
+            modal.find('.modal-body #nameen').val(nameen);
+
+            modal.find('.modal-body #low').val(low);
+            modal.find('.modal-body #high').val(high);
+
+
+        })
+    </script>
+    <script>
+        $('#modaldemo9').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget)
+            var id = button.data('id')
+            var name = button.data('name')
+            var modal = $(this)
+            modal.find('.modal-body #id').val(id);
+            modal.find('.modal-body #name').val(name);
+        })
+    </script>
+}

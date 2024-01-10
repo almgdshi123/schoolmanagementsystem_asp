@@ -1,0 +1,348 @@
+﻿@{
+    int i = 0;
+    ViewData["Title"] = "        اظافة سائق    ";
+    ViewData["Icon"] = " bi bi-person-vcard ";
+
+}
+@section Sidebar{
+
+    @Html.Partial("~/Views/Pages/Sidebar/Sidebar.cshtml")
+
+}
+
+@section style{
+    <link href="~/assets/css/setpcss.css" rel="stylesheet">
+    <link href="~/assets/css/filecss.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.0.8/css/fileinput.min.css" rel="stylesheet" />
+
+  
+}
+
+<div class="row">
+    <div class="col-md-12 mb-30">
+        <div class="card card-statistics h-100">
+            <div class="card-body">
+                <section class="signup-step-container1">
+                    <div class="container1">
+                        <div class=" ">
+                            <div class="">
+                                <div class="wizardstop">
+                                    <div class="wizardstop-inner">
+                                        <div class="connecting-line"></div>
+                                        <ul class="nav nav-tabs" role="tablist">
+                                            <li role="presentation" class="active">
+                                                <a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" aria-expanded="true"><span class="round-tab">1 </span> <i>معلومات شخصية</i></a>
+                                            </li>
+                                            <li role="presentation" class="disabled">
+                                                <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" aria-expanded="false"><span class="round-tab">2</span> <i>معلومات مهنية</i></a>
+                                            </li>
+                                            <li role="presentation" class="disabled">
+                                                <a href="#step3" data-toggle="tab" aria-controls="step3" role="tab"><span class="round-tab">3</span> <i>المرفقات وتاكيد المعلومات</i></a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+
+                                    <form role="form" asp-controller="bus" asp-action="Create" method="post" class="login-box">
+                                        <div class="tab-content" id="main_form">
+                                            <div class="tab-pane active" role="tabpanel" id="step1">
+                                                <br />
+
+                                                <div class="row1">
+                                                    <div class="col-xs-12">
+                                                        <div class="col-md-12">
+                                                            <br>
+                                                            <div class="form-row">
+                                                                <div class="col">
+                                                                    <label for="title">  البريد الكتروني</label>
+                                                                    <input type="email" class="form-control">
+
+                                                                </div>
+                                                                <div class="col">
+                                                                    <label for="title">كلمة السر</label>
+                                                                    <input type="password" class="form-control">
+
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="form-row">
+                                                                <div class="col">
+                                                                    <label for="title">اسم السائق</label>
+                                                                    <input name="BusDriverName" type="text" class="form-control">
+
+                                                                </div>
+                                                                <div class="col">
+                                                                    <label for="title">اسم السائق باللغة الانجليزية</label>
+                                                                    <input type="text" class="form-control">
+
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="form-row">
+
+
+
+                                                                <div class="col">
+                                                                    <label for="title">رقم الهوائية</label>
+                                                                    <input type="text" wire:model="National_ID_Father" class="form-control">
+
+                                                                </div>
+                                                                <div class="col">
+                                                                    <label for="title">رقم جواز السفر</label>
+                                                                    <input type="text" wire:model="Passport_ID_Father" class="form-control">
+
+                                                                </div>
+
+                                                                <div class="col">
+                                                                    <label for="title">رقم الهاتف</label>
+                                                                    <input name="Phone" type="text" wire:model="Phone_Father" class="form-control">
+
+                                                                </div>
+
+                                                            </div>
+
+
+                                                            <div class="form-row">
+                                                                <div class="form-group col">
+                                                                    <label for="inputCity">الجنسية</label>
+                                                                    <select class="custom-select my-1 mr-sm-2" wire:model="Nationality_Father_id">
+                                                                        <option selected>اختيار من القائمة ...</option>
+                                                                        <option value="{{$National->id}}">{{$National->Name}}</option>
+                                                                    </select>
+
+                                                                </div>
+                                                                <div class="form-group col">
+                                                                    <label for="inputState">فصلية الدم</label>
+                                                                    <select class="custom-select my-1 mr-sm-2" wire:model="Blood_Type_Father_id">
+                                                                        <option selected>اختيار من القائمة ...</option>
+                                                                        <option value="{{$Type_Blood->id}}">{{$Type_Blood->Name}}</option>
+                                                                    </select>
+
+                                                                </div>
+                                                                <div class="form-group col">
+                                                                    <label for="inputZip"> المحافظة </label>
+                                                                    <select class="custom-select my-1 mr-sm-2" wire:model="Religion_Father_id">
+                                                                        <option selected>اختيار من القائمة ...</option>
+                                                                        <option value="{{$Religion->id}}">{{$Religion->Name}}</option>
+                                                                    </select>
+
+                                                                </div>
+                                                                <div class="form-group col">
+                                                                    <label for="inputZip"> المديرية </label>
+                                                                    <select class="custom-select my-1 mr-sm-2" wire:model="Religion_Father_id">
+                                                                        <option selected>اختيار من القائمة ...</option>
+                                                                        <option value="{{$Religion->id}}">{{$Religion->Name}}</option>
+                                                                    </select>
+
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlTextarea1">العنوان</label>
+                                                                <textarea name="Address" class="form-control"  id="exampleFormControlTextarea1" rows="4"></textarea>
+
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+
+
+
+
+                                                </div>
+                                                <ul class="list-inline pull-right">
+                                                    <li><button type="button" class="default-btn next-step ">تابع ادخل المعلومات</button></li>
+                                                </ul>
+                                            </div>
+                                            <div class="tab-pane" role="tabpanel" id="step2">
+                                                <br />
+
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label>
+                                                                اسم المساعد
+                                                            </label>
+                                                            <input class="form-control" type="text" name="HelperName" placeholder="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label>
+                                                                اسم المشرف
+                                                            </label>
+                                                            <input class="form-control" type="text" name="SupervisorName" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label>نوع المركبة</label>
+                                                            <select name="BusType" class="custom-select my-1 mr-sm-2" >
+                                                                <option > الرجاء الاختيار من القائمة</option>
+                                                                <option value="حافلة">حافلة</option>
+                                                                <option value="باص">باص  </option>
+                                                                <option value="سيارة">سيارة </option>
+
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label>رقم المركبة</label>
+                                                            <input class="form-control" type="text" name="PlateNumber" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label> معلومات الحضور</label>
+                                                            <input class="form-control" type="time" name="TimeAttendance" placeholder="">
+                                                        </div>
+                                                    </div>        <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label>  وقت المغادرة</label>
+                                                            <input class="form-control" type="time" name="TimeLeave" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                                <ul class="list-inline pull-right">
+                                                    <li><button type="button" class="default-btn prev-step">العودة </button></li>
+                                                    <li><button type="button" class="default-btn next-step skip-btn">تخطي</button></li>
+                                                    <li><button type="button" class="default-btn next-step">تقدم </button></li>
+                                                </ul>
+                                            </div>
+                                            <div class="tab-pane" role="tabpanel" id="step3">
+                                                <br />
+                                                <br />
+
+
+                                                <div class="container text-center mb-5 mt-5">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <h4><a>يمكنك إضافة مرفقات إلى هذه الصفحة عن طريق الضغط على زر "+". يمكنك اختيار أكثر من مرفق</a></h4>
+                                                            <p class="text-danger">* صيغة المرفق pdf, jpeg ,.jpg , png </p>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <section class="bg-diffrent">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="verify-sub-box">
+                                                                    <div class="file-loading">
+                                                                        <input id="multiplefileupload" type="file" accept=".jpg,.gif,.png" multiple>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                <div class="form-group">
+                                                  
+                                                    <br>
+                                                    <br>
+                                                    <textarea name="Notes" class="form-control" placeholder="اكتب ملاحظاتك هنا"  rows="4"></textarea>
+
+                                                </div>
+                                                <ul class="list-inline pull-right">
+                                                    <li><button type="button" class="default-btn prev-step"> العودة </button></li>
+                                                    <li><button type="submit" class="default-btn next-step">ارسال المعلومات</button></li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="clearfix"></div>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.0.8/js/fileinput.min.js"></script>
+    <script>
+        $("#multiplefileupload").fileinput({
+            'theme': 'fa',
+            'uploadUrl': '#',
+            showRemove: false,
+            showUpload: false,
+            showZoom: false,
+            showCaption: false,
+            browseClass: "btn btn-danger",
+            browseLabel: "",
+            browseIcon: "<i class='fa fa-plus'></i>",
+            overwriteInitial: false,
+            initialPreviewAsData: true,
+            fileActionSettings: {
+                showUpload: false,
+                showZoom: false,
+                removeIcon: "<i class='fa fa-times'></i>",
+            }
+        });
+    </script>
+
+    <script>
+
+        // ------------step-wizard-------------
+        $(document).ready(function () {
+            $('.nav-tabs > li a[title]').tooltip();
+
+            //Wizard
+            $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+
+                var target = $(e.target);
+
+                if (target.parent().hasClass('disabled')) {
+                    return false;
+                }
+            });
+
+            $(".next-step").click(function (e) {
+
+                var active = $('.wizardstop .nav-tabs li.active');
+                active.next().removeClass('disabled');
+                nextTab(active);
+
+            });
+            $(".prev-step").click(function (e) {
+
+                var active = $('.wizardstop .nav-tabs li.active');
+                prevTab(active);
+
+            });
+        });
+
+        function nextTab(elem) {
+            $(elem).next().find('a[data-toggle="tab"]').click();
+        }
+        function prevTab(elem) {
+            $(elem).prev().find('a[data-toggle="tab"]').click();
+        }
+
+
+        $('.nav-tabs').on('click', 'li', function () {
+            $('.nav-tabs li.active').removeClass('active');
+            $(this).addClass('active');
+        });
+
+
+    </script>
+
+}

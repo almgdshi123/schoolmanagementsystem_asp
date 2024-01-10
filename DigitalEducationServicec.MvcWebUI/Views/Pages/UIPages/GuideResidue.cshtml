@@ -1,0 +1,196 @@
+﻿@{
+    int i = 0;
+    ViewData["Title"] = "  دليل  المخلفات الطلابي   ";
+}
+@section style{
+
+    <style>
+
+        .content-wrapper {
+            margin-right: 0
+        }
+    </style>
+}
+
+<div class="row">
+
+
+
+    <div class="col-xl-12 mb-30">
+        <div class="card card-statistics h-100">
+            <div class="card-body">
+
+
+                <button type="button" class="button x-small" data-toggle="modal" data-target="#exampleModal">
+                    اظافة مخالفة
+                </button>
+                <br><br>
+
+                <div class="table-responsive">
+                    <table id="datatable" class="table  table-hover table-sm table-bordered p-0" data-page-length="50"
+                           style="text-align: center">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>اسم المخالفة </th>
+
+                                <th> ملاحضات</th>
+
+                                <th>العلميات</th>
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+
+
+
+                            <!-- edit_modal_Grade -->
+                            <div class="modal fade" id="edit()" tabindex="-1" role="dialog"
+                                 aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title"
+                                                id="exampleModalLabel">
+                                                تعديل الحصة
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- add_form -->
+                                            <form asp-controller="Grade" asp-action="Edit" method="post">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <label for="Name" class="mr-sm-2">اسم الحصة بالعربية :</label>
+                                                        <input id="Name" type="text" name="Name" class="form-control"
+                                                               value="" required>
+                                                        <input id="id" type="hidden" name="id" class="form-control"
+                                                               value="">
+                                                    </div>
+
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="exampleFormControlTextarea1">
+                                                        الملاحظات
+                                                        :
+                                                    </label>
+                                                    <textarea class="form-control" name="Notes"
+                                                              id="exampleFormControlTextarea1"
+                                                              rows="3"> </textarea>
+                                                </div>
+                                                <br><br>
+
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">
+                                                        اغلاق
+                                                    </button>
+                                                    <button type="submit" class="btn btn-success">ارسال</button>
+                                                </div>
+                                            </form>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- delete_modal_Grade -->
+                            <div class="modal fade" id="delete()" tabindex="-1" role="dialog"
+                                 aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title"
+                                                id="exampleModalLabel">
+                                                حذف
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form asp-controller="Grade" asp-action="Delete" method="get">
+                                                هل انت متاكد من عملية الحذف ؟
+                                                <input id="id" type="hidden" name="id" class="form-control"
+                                                       value="">
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">
+                                                        اغلاق
+                                                    </button>
+                                                    <button type="submit" class="btn btn-danger">ارسال</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title" id="exampleModalLabel">
+                        اظافة  مخالفة
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- add_form -->
+                    <form asp-controller="Grade" asp-action="Create" method="post">
+                        <div class="row">
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">   اسم المخالفة    :</label>
+                                <input id="Name" type="text" name="name" placeholder="اكتب اسم المخالفة هنا " class="form-control">
+                            </div>
+
+
+                        </div>
+                     <br />
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">
+                                ملاحظات
+                                :
+                            </label>
+                            <textarea placeholder=" سجل ملاحضاتك هنا" class="form-control" name="notes" id="exampleFormControlTextarea1"
+                                      rows="3"></textarea>
+                        </div>
+                        <br><br>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                            <button type="submit" class="btn btn-success">ارسال</button>
+                        </div>
+                    </form>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+

@@ -1,0 +1,273 @@
+﻿@using DigitalEducationServicec.Application.Features.DayData.Queries.Results;
+@model List<GetDayDataListResponse>
+
+@{
+    int i = 0;
+    ViewData["Title"] = "    دليل الايام الدراسية   ";
+    ViewData["Icon"] = " bi bi-calendar-day ";
+}
+@section Sidebar{
+
+    @Html.Partial("~/Views/Pages/Sidebar/Sidebar.cshtml")
+
+}
+@section style{
+    <link href="
+https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.18/dist/css/bootstrap-select.min.css
+" rel="stylesheet">
+
+}
+
+
+
+<div class="row">
+
+
+
+    <div class="col-xl-12 mb-30">
+        <div class="card card-statistics h-100">
+            <div class="card-body">
+
+                <table class="table table-striped table-hover" style="text-align:center">
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal">
+                                    دليل الايام الدراسية
+                                    <i class="fa fa-plus color-orange " style="font-size:18px ;margin-right: 45px;"></i>
+
+                                </a>
+                            </th>
+
+                        </tr>
+                    </tbody>
+                </table>
+                </br>
+
+                <br><br>
+
+                <div class="table-responsive">
+                    <table id="datatable" class="table  table-hover table-sm table-bordered p-0" data-page-length="50"
+                           style="text-align: center">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th> اليوم </th>
+
+                                <th> ملاحضات</th>
+
+                                <th>العلميات</th>
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+
+
+                            @foreach (var item in Model)
+                            {
+                                i++;
+                                <tr>
+
+                                    <td>@i</td>
+
+                                    <td>
+                                        @item.DayName
+                                    </td>
+                                    <td> @item.Notes  </td>
+
+                                    <td>
+                                        <button type="button" class="btn btn-info btn-sm" data-toggle="modal"
+                                                data-target="#edit(@item.DayId)" title="تعديل">
+                                            <i class="fa fa-edit"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
+                                                data-target="#delete(@item.DayId)"
+                                                title="حذف">
+                                            <i class="fa fa-trash"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+
+
+                                <!-- edit_modal_Grade -->
+                                <div class="modal fade" id="edit(@item.DayId)" tabindex="-1" role="dialog"
+                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title"
+                                                    id="exampleModalLabel">
+                                                    تعديل اليوم
+                                                </h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <!-- add_form -->
+                                                <form asp-controller="DayData" asp-action="Edit" method="post">
+                                                    <div class="row">
+
+                                                        <div class="col">
+                                                             <input id="DayId" name="DayId" class="form-control"
+                                                           value="@item.DayId" hidden>
+                                                            <label for="Name" class="mr-sm-2">    اليوم    :</label>
+                                                            <div class="col-lg-9">
+                                                                <select data-placeholder="Choose..." required name="DayName" id="current_session" class="select-search selectpicker">
+                                                                    <option>@item.DayName</option>
+                                                                    <option>الأحد</option>
+                                                                    <option>الاثنين</option>
+                                                                    <option>الثلاثاء</option>
+                                                                    <option>الأربعاء</option>
+                                                                    <option>الخميس</option>
+                                                                    <option>الجمعة</option>
+                                                                    <option>السبت</option>
+                                                                </select>
+                                                            </div>
+
+                                                        </div>
+
+
+                                                    </div>
+                                                    <br />
+
+                                                    <div class="form-group">
+                                                        <label for="exampleFormControlTextarea1">
+                                                            ملاحظات
+                                                            :
+                                                        </label>
+                                                        <textarea placeholder=" سجل ملاحضاتك هنا" class="form-control" name="Notes" id="exampleFormControlTextarea1"
+                                                                  rows="3">@item.Notes</textarea>
+                                                    </div>
+                                                    <br><br>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                                                        <button type="submit" class="btn btn-success">ارسال</button>
+                                                    </div>
+                                                </form>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- delete_modal_Grade -->
+                                <div class="modal fade" id="delete(@item.DayId)" tabindex="-1" role="dialog"
+                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title"
+                                                    id="exampleModalLabel">
+                                                    حذف
+                                                </h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form asp-controller="DayData" asp-action="Delete" method="get">
+                                                    هل انت متاكد من عملية الحذف ؟
+                                                    <input id="DayId" name="DayId" class="form-control"
+                                                           value="@item.DayId" hidden>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                                data-dismiss="modal">
+                                                            اغلاق
+                                                        </button>
+                                                        <button type="submit" class="btn btn-danger">ارسال</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            }
+
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    اظافة يوم دراسي
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- add_form -->
+                    <form asp-controller="DayData" asp-action="Create" method="post">
+                        <div class="row">
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">    اليوم    :</label>
+                                <div class="col-lg-9">
+                                    <select data-placeholder="ارجى اختيار اليوم من القائمة " required name="DayName" id="current_session" class="select-search selectpicker">
+                                        <option>الأحد</option>
+                                        <option>الاثنين</option>
+                                        <option>الثلاثاء</option>
+                                        <option>الأربعاء</option>
+                                        <option>الخميس</option>
+                                        <option>الجمعة</option>
+                                        <option>السبت</option>
+                                    </select>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <br />
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">
+                                ملاحظات
+                                :
+                            </label>
+                            <textarea placeholder=" سجل ملاحضاتك هنا" class="form-control" name="Notes" id="exampleFormControlTextarea1"
+                                      rows="3"></textarea>
+                        </div>
+                        <br><br>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                            <button type="submit" class="btn btn-success">ارسال</button>
+                        </div>
+                    </form>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+
+
+@section scripts {
+
+
+    <!-- (Optional) Latest compiled and minified JavaScript translation files -->
+    <script src="
+https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.18/js/bootstrap-select.min.js
+"></script>
+}

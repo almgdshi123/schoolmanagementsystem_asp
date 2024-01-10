@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Contracts\Infrastructure\" />
+    <Folder Include="Contracts\Persistence\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Features\AcademicDiscount\Commands\Validatiors\" />
+    <Folder Include="Features\Appreciation\Commands\Validatiors\" />
+    <Folder Include="Features\Bus\Commands\Validatiors\" />
+    <Folder Include="Features\ClassTuitionFees\Commands\Validatiors\" />
+    <Folder Include="Features\DayData\Commands\Validatiors\" />
+    <Folder Include="Features\DistributionOfBuseStreet\Commands\Validatiors\" />
+    <Folder Include="Features\DocmunetsClass\Commands\Validatiors\" />
+    <Folder Include="Features\DocmunetStudent\Commands\Validatiors\" />
+    <Folder Include="Features\Docmunets\Commands\Validatiors\" />
+    <Folder Include="Features\Fines\Commands\Validatiors\" />
+    <Folder Include="Features\Installment\Commands\Validatiors\" />
+    <Folder Include="Features\JopType\Commands\Validatiors\" />
+    <Folder Include="Features\ParticiStudentActiv\Commands\Validatiors\" />
+    <Folder Include="Features\SectionCode\Commands\Validatiors\" />
+    <Folder Include="Features\Semesters\Queries\GetSemesterDetail\" />
+    <Folder Include="Features\Streets\Commands\Validatiors\" />
+    <Folder Include="Features\StudentActivitie\Commands\Validatiors\" />
+    <Folder Include="Features\StudentParticipationBus\Commands\Validatiors\" />
+    <Folder Include="Features\TrafficLine\Commands\Validatiors\" />
+    <Folder Include="Features\TuitionFeeInstallment\Commands\Validatiors\" />
+    <Folder Include="Features\TypeOfActivities\Commands\Validatiors\" />
+    <Folder Include="Features\TypesDiscounts\Commands\Validatiors\" />
+    <Folder Include="Features\TypesTuitionFees\Commands\Validatiors\" />
+    <Folder Include="Features\Vacations\Commands\Validatiors\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.2" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="7.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DigitalEducationServicec.Servicec\DigitalEducationServicec.Servicec.csproj" />
+  </ItemGroup>
+
+</Project>

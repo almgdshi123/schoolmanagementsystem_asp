@@ -1,0 +1,1913 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DigitalEducationServicec.MvcWebUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DigitalEducationServicec.MvcWebUI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\css\\Cairo-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets2\\css\\Cairo-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\css\\Dasboard.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\Dasboard.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\css\\variables-blue.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\variables-blue.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\css\\variables-green.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\variables-green.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\css\\variables.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\variables.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\about-bg.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\about-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\about.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\about.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\blog\\blog-author.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\blog\\blog-author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\blog\\blog-inside-post.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\blog\\blog-inside-post.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\blog\\blog-recent-1.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\blog\\blog-recent-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\blog\\blog-recent-2.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\blog\\blog-recent-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\blog\\blog-recent-3.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\blog\\blog-recent-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\blog\\blog-recent-4.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\blog\\blog-recent-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\blog\\blog-recent-5.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\blog\\blog-recent-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\blog\\comments-1.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\blog\\comments-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\blog\\comments-2.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\blog\\comments-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\blog\\comments-3.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\blog\\comments-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\blog\\comments-4.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\blog\\comments-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\blog\\comments-5.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\blog\\comments-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\blog\\comments-6.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\blog\\comments-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\clients\\client-1.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\clients\\client-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\clients\\client-2.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\clients\\client-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\clients\\client-3.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\clients\\client-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\clients\\client-4.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\clients\\client-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\clients\\client-5.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\clients\\client-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\clients\\client-6.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\clients\\client-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\clients\\client-7.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\clients\\client-7.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\clients\\client-8.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\clients\\client-8.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\cta.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\cta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\faq.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\faq.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\features-1.svg",
+      "PackagePath": "staticwebassets\\assets2\\img\\features-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\features-2.svg",
+      "PackagePath": "staticwebassets\\assets2\\img\\features-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\features-3.svg",
+      "PackagePath": "staticwebassets\\assets2\\img\\features-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\features-4.svg",
+      "PackagePath": "staticwebassets\\assets2\\img\\features-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\features-5.svg",
+      "PackagePath": "staticwebassets\\assets2\\img\\features-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\features-6.svg",
+      "PackagePath": "staticwebassets\\assets2\\img\\features-6.svg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\hero-bg.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\hero-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\hero-carousel\\Picsart_23-06-28_19-13-17-553_adobe_express (1) (1).svg",
+      "PackagePath": "staticwebassets\\assets2\\img\\hero-carousel\\Picsart_23-06-28_19-13-17-553_adobe_express (1) (1).svg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\hero-carousel\\hero-carousel-1 (2).svg",
+      "PackagePath": "staticwebassets\\assets2\\img\\hero-carousel\\hero-carousel-1 (2).svg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\hero-carousel\\hero-carousel-1.ico",
+      "PackagePath": "staticwebassets\\assets2\\img\\hero-carousel\\hero-carousel-1.ico"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\hero-carousel\\hero-carousel-1.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\hero-carousel\\hero-carousel-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\hero-carousel\\hero-carousel-1.rar",
+      "PackagePath": "staticwebassets\\assets2\\img\\hero-carousel\\hero-carousel-1.rar"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\hero-carousel\\hero-carousel-1.svg",
+      "PackagePath": "staticwebassets\\assets2\\img\\hero-carousel\\hero-carousel-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\hero-carousel\\hero-carousel-2.svg",
+      "PackagePath": "staticwebassets\\assets2\\img\\hero-carousel\\hero-carousel-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\hero-carousel\\hero-carousel-3.svg",
+      "PackagePath": "staticwebassets\\assets2\\img\\hero-carousel\\hero-carousel-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\hero-fullscreen-bg.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\hero-fullscreen-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\onfocus-content-bg.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\onfocus-content-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\onfocus-video-bg.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\onfocus-video-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\portfolio\\app-1.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\portfolio\\app-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\portfolio\\app-2.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\portfolio\\app-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\portfolio\\app-3.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\portfolio\\app-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\portfolio\\books-1.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\portfolio\\books-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\portfolio\\books-2.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\portfolio\\books-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\portfolio\\books-3.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\portfolio\\books-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\portfolio\\branding-1.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\portfolio\\branding-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\portfolio\\branding-2.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\portfolio\\branding-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\portfolio\\branding-3.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\portfolio\\branding-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\portfolio\\product-1.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\portfolio\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\portfolio\\product-2.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\portfolio\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\portfolio\\product-3.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\portfolio\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\pricing-bg.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\pricing-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\program2.webp",
+      "PackagePath": "staticwebassets\\assets2\\img\\program2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\services-1.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\services-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\services-2.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\services-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\services-3.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\services-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\services-4.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\services-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\services-5.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\services-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\services-6.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\services-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\team\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\team\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\team\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\testimonials-bg.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\testimonials-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\testimonials\\testimonials-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\testimonials\\testimonials-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\testimonials\\testimonials-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\testimonials\\testimonials-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\img\\testimonials\\testimonials-5.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\testimonials\\testimonials-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\scss\\Readme.txt",
+      "PackagePath": "staticwebassets\\assets2\\scss\\Readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\aos\\aos.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\glightbox\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\glightbox\\css\\plyr.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\glightbox\\css\\plyr.min.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\glightbox\\css\\plyr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\isotope-layout\\isotope.pkgd.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\isotope-layout\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets2\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets2\\vendor\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\Amiri-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Amiri-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\Amiri-BoldSlanted.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Amiri-BoldSlanted.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\Amiri-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Amiri-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\Amiri-Slanted.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Amiri-Slanted.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\Cairo-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Cairo-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\Cairo-VariableFont_slnt,wght.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Cairo-VariableFont_slnt,wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\OFL.txt",
+      "PackagePath": "staticwebassets\\assets\\css\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\README.txt",
+      "PackagePath": "staticwebassets\\assets\\css\\README.txt"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\bootstrap-datepicker.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-datepicker.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\cssitem\\switch.css",
+      "PackagePath": "staticwebassets\\assets\\css\\cssitem\\switch.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\download.zip",
+      "PackagePath": "staticwebassets\\assets\\css\\download.zip"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\filecss.css",
+      "PackagePath": "staticwebassets\\assets\\css\\filecss.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\ltr.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ltr.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\bootstrap-colorpicker.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\bootstrap-colorpicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\bootstrap-colorpicker.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\bootstrap-colorpicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\bootstrap-datepicker.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\bootstrap-datepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\bootstrap-touchspin.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\bootstrap-touchspin.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\bootstrap-touchspin.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\bootstrap-touchspin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\font-awesome.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\fullcalendar.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\fullcalendar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\jquery-jvectormap.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\jquery-jvectormap.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\jquery.steps.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\jquery.steps.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\lobilist.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\lobilist.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\semantic.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\semantic.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\simplemde.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\simplemde.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\simplemde.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\simplemde.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\summernote.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\summernote.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\summernote.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\summernote.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\themify-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\toastr.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\toastr.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\weather-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\weather-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\plugins\\weather-icons.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\weather-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\rtl.css",
+      "PackagePath": "staticwebassets\\assets\\css\\rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\css\\setpcss.css",
+      "PackagePath": "staticwebassets\\assets\\css\\setpcss.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\fonts\\summernote.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\summernote.eot"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\fonts\\summernote.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\summernote.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\fonts\\summernote.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\summernote.woff"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\fonts\\weathericons-regular-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\weathericons-regular-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\fonts\\weathericons-regular-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\weathericons-regular-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\fonts\\weathericons-regular-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\weathericons-regular-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\fonts\\weathericons-regular-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\weathericons-regular-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\fonts\\weathericons-regular-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\weathericons-regular-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\Thumbs.db",
+      "PackagePath": "staticwebassets\\assets\\images\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\bg\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\bg\\Thumbs.db",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\blog\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\blog\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\blog\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\blog\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\blog\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\blog\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\blog\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\blog\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\blog\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\blog\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\blog\\Thumbs.db",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\error.png",
+      "PackagePath": "staticwebassets\\assets\\images\\error.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\file-icon\\AVI.png",
+      "PackagePath": "staticwebassets\\assets\\images\\file-icon\\AVI.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\file-icon\\BMP.png",
+      "PackagePath": "staticwebassets\\assets\\images\\file-icon\\BMP.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\file-icon\\CAD.png",
+      "PackagePath": "staticwebassets\\assets\\images\\file-icon\\CAD.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\file-icon\\DLL.png",
+      "PackagePath": "staticwebassets\\assets\\images\\file-icon\\DLL.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\file-icon\\EPS.png",
+      "PackagePath": "staticwebassets\\assets\\images\\file-icon\\EPS.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\file-icon\\PDF.png",
+      "PackagePath": "staticwebassets\\assets\\images\\file-icon\\PDF.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\file-icon\\PNG.png",
+      "PackagePath": "staticwebassets\\assets\\images\\file-icon\\PNG.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\file-icon\\PS.png",
+      "PackagePath": "staticwebassets\\assets\\images\\file-icon\\PS.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\file-icon\\PSD.png",
+      "PackagePath": "staticwebassets\\assets\\images\\file-icon\\PSD.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\file-icon\\SQL.png",
+      "PackagePath": "staticwebassets\\assets\\images\\file-icon\\SQL.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\file-icon\\TXT.png",
+      "PackagePath": "staticwebassets\\assets\\images\\file-icon\\TXT.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\file-icon\\Thumbs.db",
+      "PackagePath": "staticwebassets\\assets\\images\\file-icon\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\file-icon\\ZIP.png",
+      "PackagePath": "staticwebassets\\assets\\images\\file-icon\\ZIP.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\AD.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\AD.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\AE.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\AE.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\AG.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\AG.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\AM.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\AM.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\AR.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\AR.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\AT.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\AT.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\AU.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\AU.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\BE.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\BE.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\BF.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\BF.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\BG.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\BG.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\BO.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\BO.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\BR.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\BR.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\CA.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\CA.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\CD.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\CD.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\CG.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\CG.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\CH.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\CH.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\CL.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\CL.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\CM.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\CM.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\CN.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\CN.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\CO.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\CO.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\CZ.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\CZ.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\DE.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\DE.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\DJ.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\DJ.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\DK.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\DK.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\DZ.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\DZ.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\EE.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\EE.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\EG.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\EG.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\ES.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\ES.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\FI.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\FI.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\FR.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\FR.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\GA.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\GA.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\GB.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\GB.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\GM.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\GM.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\GT.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\GT.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\HN.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\HN.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\HT.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\HT.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\HU.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\HU.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\ID.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\ID.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\IE.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\IE.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\IL.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\IL.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\IN.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\IN.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\IQ.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\IQ.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\IR.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\IR.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\IT.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\IT.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\JM.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\JM.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\JO.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\JO.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\JP.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\JP.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\KG.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\KG.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\KN.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\KN.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\KP.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\KP.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\KR.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\KR.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\KW.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\KW.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\KZ.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\KZ.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\LA.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\LA.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\LB.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\LB.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\LC.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\LC.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\LS.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\LS.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\LU.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\LU.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\LV.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\LV.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\MG.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\MG.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\MK.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\MK.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\ML.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\ML.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\MM.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\MM.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\MT.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\MT.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\MX.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\MX.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\NA.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\NA.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\NE.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\NE.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\NG.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\NG.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\NI.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\NI.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\NL.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\NL.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\NO.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\NO.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\OM.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\OM.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\PA.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\PA.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\PE.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\PE.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\PG.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\PG.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\PK.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\PK.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\PL.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\PL.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\PT.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\PT.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\PY.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\PY.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\QA.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\QA.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\RO.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\RO.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\RU.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\RU.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\RW.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\RW.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\SA.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\SA.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\SE.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\SE.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\SG.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\SG.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\SL.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\SL.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\SN.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\SN.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\SO.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\SO.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\SV.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\SV.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\TD.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\TD.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\TJ.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\TJ.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\TL.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\TL.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\TR.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\TR.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\TZ.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\TZ.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\Thumbs.db",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\UA.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\UA.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\US.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\US.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\VE.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\VE.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\VN.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\VN.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\flags\\YE.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\YE.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\item\\01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\item\\01.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\item\\02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\item\\02.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\item\\03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\item\\03.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\item\\04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\item\\04.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\item\\Thumbs.db",
+      "PackagePath": "staticwebassets\\assets\\images\\item\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\login-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\login-inner-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\login-inner-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\logo-dark (2).png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-dark (2).png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\logo-dark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\logo-icon-dark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-icon-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\logo-icon-light.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-icon-light.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\logo-white (2).png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-white (2).png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\pre-loader\\Thumbs.db",
+      "PackagePath": "staticwebassets\\assets\\images\\pre-loader\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\pre-loader\\loader-01.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\pre-loader\\loader-01.svg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\profile-avatar.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\profile-avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\register-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\register-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\register-inner-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\register-inner-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\team\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\team\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\team\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\team\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\team\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\team\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\team\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\team\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\team\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\team\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\team\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\team\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\team\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\team\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\team\\Thumbs.db",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\user-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\images\\user_icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\user_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\bootstrap-colorpicker.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-colorpicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\bootstrap-colorpicker.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-colorpicker.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\bootstrap-datatables\\ar\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-datatables\\ar\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\bootstrap-datatables\\ar\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-datatables\\ar\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\bootstrap-datatables\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-datatables\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\bootstrap-datatables\\en\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-datatables\\en\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\bootstrap-datatables\\en\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-datatables\\en\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\bootstrap-datatables\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-datatables\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\calendar.init.js",
+      "PackagePath": "staticwebassets\\assets\\js\\calendar.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\chart-init.js",
+      "PackagePath": "staticwebassets\\assets\\js\\chart-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\counter\\jquery.countTo.js",
+      "PackagePath": "staticwebassets\\assets\\js\\counter\\jquery.countTo.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\datepicker.js",
+      "PackagePath": "staticwebassets\\assets\\js\\datepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\easy-pie-chart\\easy-pie-chart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\easy-pie-chart\\easy-pie-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\jquery-nice-select\\jquery-nice-select.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-nice-select\\jquery-nice-select.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\jvectormap\\jquery-jvectormap-2.0.3.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jvectormap\\jquery-jvectormap-2.0.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\jvectormap\\jquery-jvectormap-asia-mill.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jvectormap\\jquery-jvectormap-asia-mill.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\jvectormap\\jquery-jvectormap-au-mill.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jvectormap\\jquery-jvectormap-au-mill.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\jvectormap\\jquery-jvectormap-in-mill.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jvectormap\\jquery-jvectormap-in-mill.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\jvectormap\\jquery-jvectormap-init.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jvectormap\\jquery-jvectormap-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\jvectormap\\jquery-jvectormap-north_america-mill.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jvectormap\\jquery-jvectormap-north_america-mill.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\jvectormap\\jquery-jvectormap-us-lcc.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jvectormap\\jquery-jvectormap-us-lcc.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\jvectormap\\jquery-jvectormap-world-mill-en.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jvectormap\\jquery-jvectormap-world-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\lobilist.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lobilist.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\morris.init.js",
+      "PackagePath": "staticwebassets\\assets\\js\\morris.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\nicescroll\\jquery.nicescroll.js",
+      "PackagePath": "staticwebassets\\assets\\js\\nicescroll\\jquery.nicescroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\plugins-jquery.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins-jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\sparkline.init.js",
+      "PackagePath": "staticwebassets\\assets\\js\\sparkline.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\sweetalert2.all.js",
+      "PackagePath": "staticwebassets\\assets\\js\\sweetalert2.all.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\sweetalert2.js",
+      "PackagePath": "staticwebassets\\assets\\js\\sweetalert2.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\toastr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\toastr.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\assets\\js\\validation.js",
+      "PackagePath": "staticwebassets\\assets\\js\\validation.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Demo\\Desktop\\DigitalEducationServices\\DigitalEducationServicec\\DigitalEducationServicec.MvcWebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DigitalEducationServicec.MvcWebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.DigitalEducationServicec.MvcWebUI.props",
+      "PackagePath": "build\\DigitalEducationServicec.MvcWebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.DigitalEducationServicec.MvcWebUI.props",
+      "PackagePath": "buildMultiTargeting\\DigitalEducationServicec.MvcWebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.DigitalEducationServicec.MvcWebUI.props",
+      "PackagePath": "buildTransitive\\DigitalEducationServicec.MvcWebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

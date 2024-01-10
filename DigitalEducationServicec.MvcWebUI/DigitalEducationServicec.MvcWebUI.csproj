@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Controllers\ORMDataModel1.xpo" />
+    <None Remove="Controllers\ORMDataModel1.xpo.diagram" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Pages\auth\login.cshtml" />
+    <None Include="Views\Pages\SystemSetup\SystemSetup.cshtml" />
+    <None Include="Views\Pages\UIPages\AcademicCalendar.cshtml" />
+    <None Include="Views\Pages\UIPages\AcademicHoliday.cshtml" />
+    <None Include="Views\Pages\UIPages\AcademicMonth.cshtml" />
+    <None Include="Views\Pages\UIPages\AcademicPlan.cshtml" />
+    <None Include="Views\Pages\UIPages\DetailsFeesInstalments.cshtml" />
+    <None Include="Views\Pages\UIPages\GuideClasses.cshtml" />
+    <None Include="Views\Pages\UIPages\GuideCodeDivision.cshtml" />
+    <None Include="Views\Pages\UIPages\GuideDivision.cshtml" />
+    <None Include="Views\Pages\UIPages\GuideDocuments.cshtml" />
+    <None Include="Views\Pages\UIPages\GuideGradient.cshtml" />
+    <None Include="Views\Pages\UIPages\GuideInstallmentCategory.cshtml" />
+    <None Include="Views\Pages\UIPages\GuideMaterialsNotRequired.cshtml" />
+    <None Include="Views\Pages\UIPages\GuideNationality.cshtml" />
+    <None Include="Views\Pages\UIPages\GuideNotifications.cshtml" />
+    <None Include="Views\Pages\UIPages\GuideResidue.cshtml" />
+    <None Include="Views\Pages\UIPages\GuideSections.cshtml" />
+    <None Include="Views\Pages\UIPages\GuideStages.cshtml" />
+    <None Include="Views\Pages\UIPages\GuideTypesGrade.cshtml" />
+    <None Include="Views\Pages\UIPages\InformationSchool.cshtml" />
+    <None Include="Views\Pages\UIPages\PageSettings.cshtml" />
+    <None Include="Views\Pages\UIPages\Schoolyear.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Xpo" Version="22.1.3" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DigitalEducationServicec.Application\DigitalEducationServicec.Application.csproj" />
+  </ItemGroup>
+
+</Project>

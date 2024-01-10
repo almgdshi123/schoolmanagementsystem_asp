@@ -1,0 +1,308 @@
+﻿@{
+    int i = 0;
+    ViewData["Title"] = "  دليل  السنوات الدراسية  ";
+}
+@section style{
+
+<style>
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 30px;
+            height: 17px;
+        }
+
+            /* Hide default HTML checkbox */
+            .switch input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+
+        /* The slider */
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+            .slider:before {
+                position: absolute;
+                content: "";
+                height: 13px;
+                width: 13px;
+                left: 4px;
+                bottom: 4px;
+                background-color: white;
+                -webkit-transition: .4s;
+                transition: .4s;
+            }
+
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(13px);
+            -ms-transform: translateX(13px);
+            transform: translateX(13px);
+        }
+
+        /* Rounded sliders */
+        .slider.round {
+            border-radius: 34px;
+        }
+
+            .slider.round:before {
+                border-radius: 50%;
+            }
+    .content-wrapper {
+        margin-right: 0
+    }
+</style>
+}
+
+<div class="row">
+
+
+
+    <div class="col-xl-12 mb-30">
+        <div class="card card-statistics h-100">
+            <div class="card-body">
+
+
+                <button type="button" class="button x-small" data-toggle="modal" data-target="#exampleModal">
+                    اظافة عام دارسي
+                </button>
+                <br><br>
+
+                <div class="table-responsive">
+                    <table id="datatable" class="table  table-hover table-sm table-bordered p-0" data-page-length="50"
+                           style="text-align: center">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>رقم العام</th>
+                                <th>اسم العام</th>
+                                <th>البدية</th>
+                                <th>النهاية</th>
+                                <th>العلميات</th>
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+
+                                <tr>
+
+                                    <td>1</td>
+                                    <td> 2022-2023</td>
+                                    <td>  2022/8/8 </td>
+                                <td>  2023/5/3 </td>
+                                <td>   </td>
+
+                                    <td>
+                                        <button type="button" class="btn btn-info btn-sm" data-toggle="modal"
+                                                data-target="#edit()" title="تعديل">
+                                            <i class="fa fa-edit"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
+                                                data-target="#delete()"
+                                                title="حذف">
+                                            <i class="fa fa-trash"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+
+
+                                <!-- edit_modal_Grade -->
+                                <div class="modal fade" id="edit()" tabindex="-1" role="dialog"
+                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title"
+                                                    id="exampleModalLabel">
+                                                    تعديل الحصة
+                                                </h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <!-- add_form -->
+                                                <form asp-controller="Grade" asp-action="Edit" method="post">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <label for="Name" class="mr-sm-2">اسم الحصة بالعربية :</label>
+                                                            <input id="Name" type="text" name="Name" class="form-control"
+                                                                   value="" required>
+                                                            <input id="id" type="hidden" name="id" class="form-control"
+                                                                   value="">
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="exampleFormControlTextarea1">
+                                                            الملاحظات
+                                                            :
+                                                        </label>
+                                                        <textarea class="form-control" name="Notes"
+                                                                  id="exampleFormControlTextarea1"
+                                                                  rows="3"> </textarea>
+                                                    </div>
+                                                    <br><br>
+
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                                data-dismiss="modal">
+                                                            اغلاق
+                                                        </button>
+                                                        <button type="submit" class="btn btn-success">ارسال</button>
+                                                    </div>
+                                                </form>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- delete_modal_Grade -->
+                                <div class="modal fade" id="delete()" tabindex="-1" role="dialog"
+                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title"
+                                                    id="exampleModalLabel">
+                                                    حذف          
+                                                </h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form asp-controller="Grade" asp-action="Delete" method="get">
+                                                    هل انت متاكد من عملية الحذف ؟
+                                                    <input id="id" type="hidden" name="id" class="form-control"
+                                                           value="">
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                                data-dismiss="modal">
+                                                            اغلاق
+                                                        </button>
+                                                        <button type="submit" class="btn btn-danger">ارسال</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title" id="exampleModalLabel">
+                         اظافة عام دراسي
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- add_form -->
+                    <form asp-controller="Grade" asp-action="Create" method="post">
+                        <div class="row">
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">   اسم العام الدرسي الميلادي  :</label>
+                                <input id="Name" type="text" name="name" value="2022-2023" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">   اسم العام الدرسي هجري  :</label>
+                                <input id="Name" type="text" name="name" value="1445-1444" class="form-control">
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2"> تاريخ بداية العام    :</label>
+                                <input id="Name" type="date" name="name" value="2022-2023" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">   تاريخ نهاية العام    :</label>
+                                <input id="Name" type="date" name="name" value="1445-1444" class="form-control">
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                                        <br />
+                                <br />
+
+                                <!-- Rounded switch -->
+                                <label lass="form-control" class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                                <label for="Name" class="mr-sm-2"> اقفال السنة/ اقفال العمليات في هذة السنة      :</label>
+                                <br />
+                                <br />
+
+                            </div>
+                          
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">
+                                ملاحظات
+                                :
+                            </label>
+                            <textarea class="form-control" name="notes" id="exampleFormControlTextarea1"
+                                      rows="3"></textarea>
+                        </div>
+                        <br><br>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                            <button type="submit" class="btn btn-success">ارسال</button>
+                        </div>
+                    </form>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+

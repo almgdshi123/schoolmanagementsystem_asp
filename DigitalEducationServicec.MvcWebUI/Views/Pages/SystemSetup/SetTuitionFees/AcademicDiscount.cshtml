@@ -1,0 +1,315 @@
+﻿@using DigitalEducationServicec.Application.Features.AcademicDiscount.Queries.Results;
+@model List<GetAcademicDiscountListResponse>
+
+@{
+    int i = 0;
+    ViewData["Title"] = " دليل فئاة الخصم   ";
+    ViewData["Icon"] = "  bi bi-cash-coin ";
+}
+@section Sidebar{
+
+    @Html.Partial("~/Views/Pages/Sidebar/Sidebar.cshtml")
+
+}
+
+<div class="row">
+
+
+
+    <div class="col-xl-12 mb-30">
+        <div class="card card-statistics h-100">
+            <div class="card-body">
+
+
+                <button type="button" class="button x-small" data-toggle="modal" data-target="#exampleModal">
+                    اظافة  خصم
+                </button>
+                <br><br>
+
+                <div class="table-responsive">
+                    <table id="datatable" class="table  table-hover table-sm table-bordered p-0" data-page-length="50"
+                           style="text-align: center">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th> اسم فئة الخصم </th>
+                                <th>  حالة الخصم  </th>
+                                <th>   مقدار الخصم  </th>
+
+                                <th> ملاحضات</th>
+
+                                <th>العلميات</th>
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            @foreach (var item in Model)
+                            {
+
+                                i++;
+                                <tr>
+
+                                    <td>@i</td>
+
+                                    <td>
+                                        @item.AcademicDiscountName
+                                    </td>
+                                    <td> @item.AcademicDiscountType </td>
+                                    <td>@item.AmountDiscount</td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-info btn-sm" data-id="@item.AcademicDiscountId" data-name="@item.AcademicDiscountName"
+                                              data-discount="@item.AmountDiscount"  data-type="@item.AcademicDiscountType" data-toggle="modal"
+                                                href="#exampleModal2" title="تعديل">
+                                            <i class="fa fa-edit"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
+                                                href="#modaldemo9" data-id="@item.AcademicDiscountId" data-name="@item.AcademicDiscountName"
+                                                title="حذف">
+                                            <i class="fa fa-trash"></i>
+                                        </button>
+                                    </td>
+                                  
+                                </tr>
+                            }
+
+
+
+                            <!-- delete_modal_Grade -->
+                            <div class="modal fade" id="modaldemo9" tabindex="-1" role="dialog"
+                                 aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title"
+                                                id="exampleModalLabel">
+                                                حذف
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form asp-controller="AcademicDiscount" asp-action="Delete" method="get">
+                                                هل انت متاكد من عملية الحذف ؟
+                                                <input id="id" name="AcademicDiscountId" class="form-control" hidden required
+                                                value="">
+                                                <input class="form-control" name="name" id="name" type="text" readonly>
+
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">
+                                                        اغلاق
+                                                    </button>
+                                                    <button type="submit" class="btn btn-danger">ارسال</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title" id="exampleModalLabel">
+                        اظافة   خصم
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- add_form -->
+                    <form asp-controller="AcademicDiscount" asp-action="Create" method="post">
+                        <div class="row">
+                            <div class="col-lg">
+                                <label for="Name" class="mr-sm-2">    اسم الخصم     :</label>
+                                <input id="Name" placeholder="اكتب اسم الخصم" type="text" name="AcademicDiscountName" class="form-control" required>
+                            </div>
+                        </div>
+
+                        <br />
+
+
+                        <div class="row">
+
+                            <div class="col">
+                                <label for="inputName"
+                                       class="control-label">حالة الخصم </label>
+                                <select required name="AcademicDiscountType"
+                                        class="custom-select"
+                                      >
+                                    <!--placeholder-->
+                                    <option  value="مبلغ">
+                                        مبلغ
+                                    </option>
+                                    <option value="نسبة">
+                                        نسبة
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">    مقدار  الخصم     :</label>
+                                <input id="Name" type="number" placeholder="ادخل مبلغ الخصم او نسبة" name="AmountDiscount" required class="form-control">
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">
+                                ملاحظات
+                                :
+                            </label>
+                            <textarea placeholder=" سجل ملاحضاتك هنا" class="form-control" name="notes" id="exampleFormControlTextarea1"
+                                      rows="4"></textarea>
+                        </div>
+                        <br><br>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                            <button type="submit" class="btn btn-success">ارسال</button>
+                        </div>
+                    </form>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+ 
+    <!-- edit -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title"
+                        id="exampleModalLabel">
+                        تعديل الخصم
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form asp-controller="AcademicDiscount" asp-action="Edit" method="post">
+                        <div class="row">
+                            <div class="col-lg">
+                                
+                                <input id="id"   name="AcademicDiscountId" class="form-control" hidden required>
+
+                                <label for="Name" class="mr-sm-2">    اسم الخصم     :</label>
+                                <input id="name" placeholder="اكتب اسم الخصم" type="text" name="AcademicDiscountName" class="form-control" required>
+                            </div>
+                        </div>
+
+                        <br />
+
+
+                        <div class="row">
+
+                            <div class="col">
+                                <label for="inputName"
+                                       class="control-label">حالة الخصم </label>
+                                <select required id ="type" name="AcademicDiscountType"
+                                        class="custom-select">
+                                    <!--placeholder-->
+                                    <option value="مبلغ">
+                                        مبلغ
+                                    </option>
+                                    <option value="نسبة">
+                                        نسبة
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">    مقدار  الخصم     :</label>
+                                <input id="discount" type="number" placeholder="ادخل مبلغ الخصم او نسبة" name="AmountDiscount" required class="form-control">
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">
+                                ملاحظات
+                                :
+                            </label>
+                            <textarea placeholder=" سجل ملاحضاتك هنا" class="form-control" name="notes" id="exampleFormControlTextarea1"
+                                      rows="4"></textarea>
+                        </div>
+                        <br><br>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary"
+                                    data-dismiss="modal">
+                                اغلاق
+                            </button>
+                            <button type="submit" class="btn btn-success">ارسال</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+
+
+@section scripts{
+    <script>
+ 
+
+        $('#exampleModal2').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget)
+            var id = button.data('id')
+            var name = button.data('name')
+            var type = button.data('type')
+            var discount = button.data('discount')
+
+            var modal = $(this)
+            modal.find('.modal-body #id').val(id);
+            modal.find('.modal-body #name').val(name);
+            modal.find('.modal-body #type').val(type);
+            modal.find('.modal-body #discount').val(discount);
+
+        })
+    </script>
+    <script>
+        $('#modaldemo9').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget)
+            var id = button.data('id')
+            var name = button.data('name')
+            var modal = $(this)
+            modal.find('.modal-body #id').val(id);
+            modal.find('.modal-body #name').val(name);
+        })
+    </script>
+}

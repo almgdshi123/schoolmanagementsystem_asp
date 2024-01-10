@@ -1,0 +1,277 @@
+﻿@{
+    int i = 0;
+    ViewData["Title"] = "    دليل الشعب الدارسية    ";
+}
+@section style{
+    <link href="
+https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.18/dist/css/bootstrap-select.min.css
+" rel="stylesheet">
+    <style>
+
+  
+
+        .content-wrapper {
+            margin-right: 0
+        }
+    </style>
+}
+
+<div class="row">
+
+
+
+    <div class="col-xl-12 mb-30">
+        <div class="card card-statistics h-100">
+            <div class="card-body">
+
+                <table class="table table-striped table-hover" style="text-align:center">
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal">
+                                    اظافة شعبة
+                                    <i class="fa fa-plus color-orange " style="font-size:18px ;margin-right: 45px;"></i>
+
+                                </a>
+                            </th>
+
+                        </tr>
+                    </tbody>
+                </table>
+                </br>
+
+                <br><br>
+
+                <div class="table-responsive">
+                    <table id="datatable" class="table  table-hover table-sm table-bordered p-0" data-page-length="50"
+                           style="text-align: center">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>  العام الدراسي  </th>
+                                <th>   اسم الصف</th>
+
+                                <th>  رمز الشعبة</th>
+                                <th>    رائد الفصل </th>
+                                <th>    عدد الطلاب  </th>
+
+                                <th> ملاحضات</th>
+
+                                <th>العلميات</th>
+
+
+                            </tr>
+                        </thead>
+                 
+                      
+
+
+
+
+                            <!-- edit_modal_Grade -->
+                            <div class="modal fade" id="edit()" tabindex="-1" role="dialog"
+                                 aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title"
+                                                id="exampleModalLabel">
+                                                تعديل الحصة
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- add_form -->
+                                            <form asp-controller="Grade" asp-action="Edit" method="post">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <label for="Name" class="mr-sm-2">اسم الحصة بالعربية :</label>
+                                                        <input id="Name" type="text" name="Name" class="form-control"
+                                                               value="" required>
+                                                        <input id="id" type="hidden" name="id" class="form-control"
+                                                               value="">
+                                                    </div>
+
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="exampleFormControlTextarea1">
+                                                        الملاحظات
+                                                        :
+                                                    </label>
+                                                    <textarea class="form-control" name="Notes"
+                                                              id="exampleFormControlTextarea1"
+                                                              rows="3"> </textarea>
+                                                </div>
+                                                <br><br>
+
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">
+                                                        اغلاق
+                                                    </button>
+                                                    <button type="submit" class="btn btn-success">ارسال</button>
+                                                </div>
+                                            </form>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- delete_modal_Grade -->
+                            <div class="modal fade" id="delete()" tabindex="-1" role="dialog"
+                                 aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title"
+                                                id="exampleModalLabel">
+                                                حذف
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form asp-controller="Grade" asp-action="Delete" method="get">
+                                                هل انت متاكد من عملية الحذف ؟
+                                                <input id="id" type="hidden" name="id" class="form-control"
+                                                       value="">
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">
+                                                        اغلاق
+                                                    </button>
+                                                    <button type="submit" class="btn btn-danger">ارسال</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    اظافة الشعبة
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <!-- add_form -->
+                    <form asp-controller="Grade" asp-action="Create" method="post">
+                 
+
+                        <div class="row">
+                            <div class="col">
+                                <label for="inputName"
+                                       class="control-label">اسم الصف</label>
+                                <select name="Grade_id"
+                                        class="custom-select"
+                                        onclick="console.log($(this).val())">
+                                    <!--placeholder-->
+                                    <option value="{{ $Grade->id }}">
+                                        الصف الاولى 
+                                    </option>
+                                    <option value="{{ $list_Grade->id }}">
+                                         الصف الثاني 
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="col">
+                                <label for="inputName"
+                                       class="control-label">رائد الفصل </label>
+                                <select name="Grade_id"
+                                        class="custom-select"
+                                        onclick="console.log($(this).val())">
+                                    <!--placeholder-->
+                                    <option value="{{ $Grade->id }}">
+                                         علي
+                                    </option>
+                                    <option value="{{ $list_Grade->id }}">
+                                         خالد
+                                    </option>
+                                </select>
+                            </div>
+                            <br>
+                          
+
+
+
+                        </div>
+                        <div class="row">
+
+                            <div class="col">
+                                <label for="Name" class="mr-sm-2">     الحد الادنى للطالب   :</label>
+                                <input id="Name" type="text" name="name" placeholder="اكتب اسم الشعبة هنا " class="form-control">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <label for="inputName"
+                                   class="control-label"> رمز الشعبة</label>
+                            <select multiple name="teacher_id[]" class="form-control"
+                                    id="exampleFormControlSelect2">
+                                <option value="{{ $teacher->id }}"> ا</option>
+                                <option value="{{ $teacher->id }}"> ب</option>
+                                <option value="{{ $teacher->id }}">  ج</option>
+
+
+                            </select>
+                        </div>
+                         
+                        <br />
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">
+                                ملاحظات
+                                :
+                            </label>
+                            <textarea placeholder=" سجل ملاحضاتك هنا" class="form-control" name="notes" id="exampleFormControlTextarea1"
+                                      rows="3"></textarea>
+                        </div>
+                        <br><br>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                            <button type="submit" class="btn btn-danger">حفظ البيانات</button>
+                        </div>
+                    </form>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+@section scripts {
+
+
+    <!-- (Optional) Latest compiled and minified JavaScript translation files -->
+    <script src="
+https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.18/js/bootstrap-select.min.js
+"></script>
+}

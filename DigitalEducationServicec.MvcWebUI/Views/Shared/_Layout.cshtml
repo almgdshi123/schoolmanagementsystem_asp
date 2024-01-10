@@ -1,0 +1,333 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Webmin - Bootstrap 4 & Angular 5 Admin Dashboard Template" />
+    <meta name="author" content="potenzaglobalsolutions.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- Title -->
+    <title>@ViewData["Title"]</title>
+    <link href="~/assets2/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/assets/images/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!--- Style css -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" rel="stylesheet" />
+    <link href="~/assets/css/rtl.css" rel="stylesheet" />
+
+    @RenderSection("style", required:false)
+
+
+</head>
+
+<body>
+
+    <div class="wrapper" style="font-family: 'Cairo', sans-serif">
+
+        <!--=================================preloader -->
+
+        <div id="pre-loader">
+            <img src="~/assets/images/pre-loader/loader-01.svg" alt="">
+        </div>
+
+        <!--=================================preloader -->
+        <!--=================================header start-->
+        <nav class="admin-header navbar navbar-default col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+            <!-- logo -->
+            <div class="text-left navbar-brand-wrapper " >
+                <a class="navbar-brand brand-logo" href="{{ url('/dashboard') }}">
+                    <!-- Uncomment the line below if you also wish to use an image logo -->
+                    <!-- <img src="assets/img/logo.png" alt=""> -->
+                    <h1 style="    color: #28A7B6 ">CyberPo<span>.</span></h1>
+                </a>
+                <a class="navbar-brand brand-logo-mini" href="{{ url('/dashboard') }}">
+                    <img src="~/assets/images/logo-icon-dark.png" alt="">
+                </a>
+
+
+            </div>
+            <!-- Top bar left -->
+            <ul class="nav navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a id="button-toggle" class="button-toggle-nav inline-block ml-20 pull-left"
+                       href="javascript:void(0);"><i class="zmdi zmdi-menu ti-align-right"></i></a>
+                </li>
+                <li class="nav-item">
+                    <div class="search">
+                        <a class="search-btn not_click" href="javascript:void(0);"></a>
+                        <div class="search-box not-click">
+                            <input type="text" class="not-click form-control" placeholder="Search" value=""
+                                   name="search">
+                            <button class="search-button" type="submit"> <i class="fa fa-search not-click"></i></button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <!-- top bar right -->
+            <ul class="nav navbar-nav ml-auto">
+
+
+
+                <li class="nav-item fullscreen">
+                    <a id="btnFullscreen" href="#" class="nav-link"><i class="ti-fullscreen"></i></a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link top-nav" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                       aria-expanded="false">
+                        <i class="ti-bell"></i>
+                        <span class="badge badge-danger notification-status"> </span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-big dropdown-notifications">
+                        <div class="dropdown-header notifications">
+                            <strong>الاشعارات</strong>
+                            <span class="badge badge-pill badge-warning">05</span>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            New registered user <small class="float-right text-muted time">Just now</small>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            New invoice received <small class="float-right text-muted time">22 mins</small>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            Server error report<small class="float-right text-muted time">7 hrs</small>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            Database report<small class="float-right text-muted time">
+                                1
+                                days
+                            </small>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            Order confirmation<small class="float-right text-muted time">
+                                2
+                                days
+                            </small>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link top-nav" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                       aria-expanded="true"> <i class=" ti-view-grid"></i> </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-big">
+                        <div class="dropdown-header">
+                            <strong>Quick Links</strong>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <div class="nav-grid">
+                            <a href="#" class="nav-grid-item">
+                                <i class="ti-files text-primary"></i>
+                                <h5>New Task</h5>
+                            </a>
+                            <a href="#" class="nav-grid-item">
+                                <i class="ti-check-box text-success"></i>
+                                <h5>Assign Task</h5>
+                            </a>
+                        </div>
+                        <div class="nav-grid">
+                            <a href="#" class="nav-grid-item">
+                                <i class="ti-pencil-alt text-warning"></i>
+                                <h5>Add Orders</h5>
+                            </a>
+                            <a href="#" class="nav-grid-item">
+                                <i class="ti-truck text-danger "></i>
+                                <h5>New Orders</h5>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown mr-30">
+                    <a class="nav-link nav-pill user-avatar" data-toggle="dropdown" href="#" role="button"
+                       aria-haspopup="true" aria-expanded="false">
+                        <img src="~/assets/images/user_icon.png" alt="avatar">
+
+
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <div class="dropdown-header">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-0">اسم المستخدم</h5>
+                                    <span>good.mm@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="text-secondary ti-reload"></i>Activity</a>
+                        <a class="dropdown-item" href="#"><i class="text-success ti-email"></i>Messages</a>
+                        <a class="dropdown-item" href="#"><i class="text-warning ti-user"></i>Profile</a>
+                        <a class="dropdown-item" href="#">
+                            <i class="text-dark ti-layers-alt"></i>Projects <span class="badge badge-info">6</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="text-info ti-settings"></i>Settings</a>
+                        <a class="dropdown-item" href="{{ route('logout') }}"
+                           onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+                            <i class="text-danger ti-unlock"></i>تسجيل خروج
+                        </a>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <!--=================================header End-->
+
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Left Sidebar start-->
+                @RenderSection("Sidebar", required:false)
+
+                <!-- Left Sidebar End-->
+                <!--=================================
+
+
+                Main content -->
+                <!-- main-content -->
+                <div class="content-wrapper">
+
+                    <div class="page-title">
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h2 class="mb-0" style="font-family: 'Cairo', sans-serif">@ViewData["Title"] <span class="@ViewData["Icon"] "></span></h2>
+                            </div>
+                            <div class="col-sm-6">
+                                <ol class="breadcrumb  pt-0 pr-0 float-left float-sm-right ">
+                                    <li class="breadcrumb-item">
+                                        <a href="/dashboard" class="default-color">
+                                            الرئيسية
+                                        </a>
+                                    </li>
+                                    <li class="breadcrumb-item active"> @ViewData["Title"]</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <main>
+                        @RenderBody()
+                    </main>
+
+                    <!-- Footer opened -->
+                    <footer class="bg-white p-4">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="text-center text-md-left">
+                                    <p class="mb-0">
+                                        &copy; جميع الحقوق محوظة لفريق سيبر برو  <span id="copyright">
+                                            <script>
+                                                document.getElementById('copyright').appendChild(document
+                                                    .createTextNode(new Date().getFullYear()))
+                                            </script>
+                                        </span>. <a href="#"> </a>نظام ادارة المدارس
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                    <!-- Footer closed -->
+                    <!-- main content wrapper end-->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--=================================
+    footer -->
+    <!-- jquery -->
+    <script src="~/assets/js/jquery-3.3.1.min.js"></script>
+    <!-- plugins-jquery -->
+    <script src="~/assets/js/plugins-jquery.js"></script>
+    <!-- plugin_path -->
+    <script type="text/javascript">var plugin_path = '/assets/js/';</script>
+
+
+    <script src="~/assets/js/chart-init.js"></script>
+    <!-- calendar -->
+    <script src="~/assets/js/calendar.init.js"></script>
+    <!-- charts sparkline -->
+    <script src="~/assets/js/sparkline.init.js"></script>
+    <!-- charts morris -->
+    <script src="~/assets/js/morris.init.js"></script>
+    <!-- datepicker -->
+    <script src="~/assets/js/datepicker.js"></script>
+    <!-- sweetalert2 -->
+    <script src="~/assets/js/sweetalert2.js"></script>
+    <!-- toastr -->
+    <!-- validation -->
+    <script src="~/assets/js/validation.js"></script>
+    <!-- lobilist -->
+    <script src='~/assets/js/lobilist.js'></script>
+    <!-- custom -->
+    <script src="~/assets/js/custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('#datatable').DataTable();
+        });
+    </script>
+
+
+    <script src="~/assets/js/bootstrap-datatables/ar/jquery.dataTables.min.js"></script>
+    <script src="~/assets/js/bootstrap-datatables/ar/dataTables.bootstrap4.min.js"></script>
+    @if (TempData["message"] != null)
+    {
+
+        <script>
+            toastr.options.closeButton = true;
+
+            toastr.options.preventDuplicates = true;
+            $(document).ready(function () {
+                toastr.info('@TempData["message"]', 'نجاح ', { timeOut: 20000 });
+            });
+        </script>
+    }
+    @if (TempData["error"] != null)
+    {
+
+        <script>
+            toastr.options.closeButton = true;
+
+            toastr.options.preventDuplicates = true;
+            $(document).ready(function () {
+                toastr.error('@TempData["error"]', 'خطاء', { timeOut: 20000 });
+            });
+        </script>
+    }
+    @if (TempData["warning"] != null)
+    {
+
+        <script>
+            toastr.options.closeButton = true;
+
+            toastr.options.preventDuplicates = true;
+            $(document).ready(function () {
+                toastr.warning('@TempData["warning"]', ' فشل', { timeOut: 20000 });
+            });
+        </script>
+    }
+
+
+    @RenderSection("scripts", required:false)
+
+</body>
+
+</html>
